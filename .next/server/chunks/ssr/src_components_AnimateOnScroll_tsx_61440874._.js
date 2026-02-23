@@ -1,0 +1,3 @@
+module.exports=[30370,a=>{"use strict";a.s(["default",()=>d]);var b=a.i(87924),c=a.i(72131);function d({children:a,delay:d=0,className:e="",threshold:f=.1}){let[g,h]=(0,c.useState)(!1),i=(0,c.useRef)(null);return(0,c.useEffect)(()=>{let a=new IntersectionObserver(([b])=>{b.isIntersecting&&(h(!0),i.current&&a.unobserve(i.current))},{threshold:f,rootMargin:"0px 0px -50px 0px"});return i.current&&a.observe(i.current),()=>{i.current&&a.unobserve(i.current)}},[f]),(0,b.jsx)("div",{ref:i,className:`transition-all duration-700 ease-out ${g?"opacity-100 translate-y-0":"opacity-0 translate-y-10"} ${e}`,style:{transitionDelay:g?`${d}ms`:"0ms"},children:a})}}];
+
+//# sourceMappingURL=src_components_AnimateOnScroll_tsx_61440874._.js.map

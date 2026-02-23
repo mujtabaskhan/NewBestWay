@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/apply/route": "/api/apply",
+  "/api/contact/route": "/api/contact",
+  "/careers/page": "/careers",
+  "/cookies/page": "/cookies",
+  "/expertise/page": "/expertise",
+  "/faq/page": "/faq",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/privacy-policy/page": "/privacy-policy",
+  "/services/page": "/services",
+  "/team/page": "/team",
+  "/terms/page": "/terms"
+}
