@@ -81,7 +81,7 @@ const Cookie = () => {
                 <p>
                   We use these to deliver relevant ads and measure the
                   effectiveness of our marketing campaigns. California residents
-                  may opt out of the use of cookies that constitute a "sale" of
+                  may opt out of the use of cookies that constitute a &quot;sale&quot; of
                   personal information under the CCPA by adjusting their
                   preferences below or through their browser settings.
                 </p>

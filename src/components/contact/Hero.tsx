@@ -26,7 +26,7 @@ export default function Hero() {
                     <div className="max-w-4xl">
                         <p className="text-xl text-[#027C99] leading-[30px] font-flex max-sm:leading-6 max-sm:!text-xs">
                             Have questions or need expert financial guidance? Our team is here to help you every step of the way.
-                            Reach out to us today and let's discuss how we can support your business with reliable and professional solutions.
+                            Reach out to us today and let&apos;s discuss how we can support your business with reliable and professional solutions.
 
                         </p>
                     </div>

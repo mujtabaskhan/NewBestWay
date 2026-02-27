@@ -39,7 +39,7 @@ const Terms = () => {
               <p>Last Updated: 27/02/2026</p>
 
               <p>
-                Welcome to New Bestway Inc ("we," "our," or "us"). By accessing
+                Welcome to New Bestway Inc (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). By accessing
                 or using our website or engaging our services, you agree to
                 comply with and be bound by these Terms and Conditions. Please
                 read them carefully before proceeding.

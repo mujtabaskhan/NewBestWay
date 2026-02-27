@@ -107,7 +107,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\Surface Pro\\Documents\\GitHub\\veritasaccounting",
+    "outputFileTracingRoot": "C:\\Users\\Surface Pro\\Documents\\GitHub\\NewBestWay",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -298,10 +298,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "C:\\Users\\Surface Pro\\Documents\\GitHub\\veritasaccounting"
+      "root": "C:\\Users\\Surface Pro\\Documents\\GitHub\\NewBestWay"
     }
   },
-  "appDir": "C:\\Users\\Surface Pro\\Documents\\GitHub\\veritasaccounting",
+  "appDir": "C:\\Users\\Surface Pro\\Documents\\GitHub\\NewBestWay",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

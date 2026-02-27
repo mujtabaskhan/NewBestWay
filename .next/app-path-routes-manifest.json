@@ -4,6 +4,7 @@
   "/api/apply/route": "/api/apply",
   "/api/contact/route": "/api/contact",
   "/careers/page": "/careers",
+  "/contact/page": "/contact",
   "/cookies/page": "/cookies",
   "/expertise/page": "/expertise",
   "/faq/page": "/faq",

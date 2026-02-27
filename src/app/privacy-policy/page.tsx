@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
               <p>Last Updated: 27/02/2026</p>
 
               <p>
-                At New Bestway Inc ("we," "our," or "us"), your privacy is our
+                At New Bestway Inc (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), your privacy is our
                 top priority. We are committed to protecting your personal
                 information and maintaining transparency about how we collect,
                 use, and safeguard it. This policy outlines our practices in
@@ -211,7 +211,7 @@ const PrivacyPolicy = () => {
                 <p>
                   We may update this Privacy Policy periodically to reflect
                   changes in our practices or legal requirements. Updates will
-                  be posted on this page with a revised "Last Updated" date.
+                  be posted on this page with a revised &quot;Last Updated&quot; date.
                 </p>
               </div>
 
