@@ -238,20 +238,20 @@ const Navbar = () => {
     };
   }, [isExpertiseOpen]);
 
-const expertiseItems = [
-  { label: "Company Formations", href: "/services#company-formations" },
-  { label: "Not For Profits", href: "/services#not-for-profits" },
-  { label: "Sole Proprietorship", href: "/services#sole-proprietorship" },
-  { label: "DBAs", href: "/services#dbas" },
-  { label: "Tax ID Numbers", href: "/services#tax-id-numbers" },
-  { label: "S. Corporation Election", href: "/services#s-corporation-election" },
-  { label: "Amendments / Changes", href: "/services#amendments-changes" },
-  { label: "Minutes / Resolutions", href: "/services#minutes-resolutions" },
-  { label: "Registered Agent", href: "/services#registered-agent" },
-  { label: "Corporate File", href: "/services#corporate-file" },
-  { label: "Dissolutions", href: "/services#dissolutions" },
-  { label: "Reinstatements", href: "/services#reinstatements" },
-];
+  const expertiseItems = [
+    { label: "Company Formations", href: "/services#company-formations" },
+    { label: "Not For Profits", href: "/services#not-for-profits" },
+    { label: "Sole Proprietorship", href: "/services#sole-proprietorship" },
+    { label: "DBAs", href: "/services#dbas" },
+    { label: "Tax ID Numbers", href: "/services#tax-id-numbers" },
+    { label: "S. Corporation Election", href: "/services#s-corporation-election" },
+    { label: "Amendments / Changes", href: "/services#amendments-changes" },
+    { label: "Minutes / Resolutions", href: "/services#minutes-resolutions" },
+    { label: "Registered Agent", href: "/services#registered-agent" },
+    { label: "Corporate File", href: "/services#corporate-file" },
+    { label: "Dissolutions", href: "/services#dissolutions" },
+    { label: "Reinstatements", href: "/services#reinstatements" },
+  ];
 
   // Check if a nav link is active
   const isActive = (href: string) => {
@@ -603,26 +603,7 @@ const expertiseItems = [
                         </div>
                       </div>
                     </div>
-                    <Link
-                      href="/careers"
-                      onClick={closeMenu}
-                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/careers")
-                        ? "bg-[#027C99] text-white"
-                        : "text-[#232061] bg-[#F6F6F6]"
-                        }`}
-                    >
-                      Careers
-                    </Link>
-                    <Link
-                      href="/team"
-                      onClick={closeMenu}
-                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/team")
-                        ? "bg-[#027C99] text-white"
-                        : "text-[#232061] bg-[#F6F6F6]"
-                        }`}
-                    >
-                      Team
-                    </Link>
+
                     <Link
                       href="/faq"
                       onClick={closeMenu}
@@ -632,6 +613,17 @@ const expertiseItems = [
                         }`}
                     >
                       FAQ
+                    </Link>
+
+                    <Link
+                      href="/contact"
+                      onClick={closeMenu}
+                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/team")
+                        ? "bg-[#027C99] text-white"
+                        : "text-[#232061] bg-[#F6F6F6]"
+                        }`}
+                    >
+                      Contact Us
                     </Link>
                   </div>
 
