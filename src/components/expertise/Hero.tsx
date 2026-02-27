@@ -19,9 +19,8 @@ function Hero() {
   return (
     <>
       <div
-        className={`w-full min-h-screen h-screen overflow-hidden pb-[200px] sticky top-0 z-[5] max-xs:!h-[90vh] ${
-          isScrolled ? "rounded-bl-[60px] rounded-br-[60px]" : ""
-        }`}
+        className={`w-full min-h-screen h-screen overflow-hidden pb-[200px] sticky top-0 z-[5] max-xs:!h-[90vh] ${isScrolled ? "rounded-bl-[60px] rounded-br-[60px]" : ""
+          }`}
         style={{
           width: "100%",
           WebkitTransform: "translateZ(0)",
@@ -32,7 +31,7 @@ function Hero() {
         }}
       >
         <Image
-          src="/expertise-hero.png"
+          src="/expert.jpg"
           alt="expertise-hero"
           width={1440}
           height={100}
@@ -61,18 +60,13 @@ function Hero() {
 
         <div className="relative z-10 flex flex-col h-full px-8 max-sm:px-10 max-w-7xl mx-auto pt-52 max-lg:pt-36">
           <div className="w-full">
-            <h1 className="font-roboto text-[64px] max-md:text-[40px] max-sm:text-[30px] leading-[70px] text-[#232061] mb-15 max-xl:mb-3 max-sm:leading-[50px] font-light">
+            <h1 className="font-roboto text-[64px] max-md:text-[40px] max-sm:text-[30px] leading-[70px] text-[#027C99] mb-15 max-xl:mb-3 max-sm:leading-[50px] font-light">
               Our <br />{" "}
-              <span className="font-serif font-semibold">Expertise</span>
+              <span className="font-serif font-semibold">Services</span>
             </h1>
 
             <p className="text-[#232061] text-[20px] leading-[32px] max-w-4xl max-sm:text-xs mt-5 font-normal font-roboto cloudy-text max-sm:leading-normal">
-              At Veritas Accounting and Tax Consultants, we provide more than
-              just numbers, we deliver clarity, confidence, and strategies to
-              help your business grow. Whether you’re a small business owner,
-              entrepreneur, or corporate client, our dedicated team offers
-              tailored services designed to simplify your finances and maximize
-              results. Explore our full range of services below:
+              At NewBestway Inc., we offer more than just numbers—we provide clarity, confidence, and strategies to help your business thrive. Whether you’re a small business owner, entrepreneur, or corporate client, our expert team delivers customized solutions designed to simplify your finances and drive results. Discover our full range of services below:
             </p>
           </div>
 
@@ -90,7 +84,7 @@ function Hero() {
               }}
               className="px-9 py-4 rounded-full font-medium text-white transition-all flex justify-center items-center gap-3 hover:opacity-90 text-xl leading-[10px] max-sm:text-xs max-sm:py-3 max-sm:px-6 max-sm:leading-[20px] cursor-pointer font-serif"
               style={{
-                backgroundColor: "#232061",
+                backgroundColor: "#027C99",
               }}
             >
               Learn More

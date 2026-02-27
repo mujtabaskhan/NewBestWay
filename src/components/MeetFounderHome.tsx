@@ -23,20 +23,20 @@ export default function MeetFounderHome() {
                     color: "transparent",
                   }}
                 >
-                  Letter
+                  Message
                 </span>
                 <br />
               </h2>
 
               <h2 className="max-sm:-mt-10 font-extralight text-[64px] max-sm:text-[56px] text-[#232061] max-sm:text-left max-sm:leading-[60px]">
                 {" "}
-                from the Founder
+                from Our CEO
               </h2>
             </AnimateOnScroll>
           </div>
 
           <Image
-            src="/Omair.webp"
+            src="/"
             alt="Founder"
             width={500}
             height={800}
@@ -58,45 +58,30 @@ export default function MeetFounderHome() {
                       color: "transparent",
                     }}
                   >
-                    Letter
+                    Message
                   </span>
                   <br />
                 </h2>
 
                 <h2 className="font-extralight text-[64px] text-[#232061] max-sm:text-base max-sm:text-center">
                   {" "}
-                  from the Founder
+                  from Our CEO
                 </h2>
               </AnimateOnScroll>
             </div>
 
             <p className="text-lg text-[#232061] leading-[35px] font-flex max-sm:leading-6 max-sm:text-left">
-              When I founded Veritas Accounting, I did so with a single
-              conviction: that financial clarity is the heartbeat of every
-              successful business.
-              <br /> The name <span className="!font-black">Veritas</span>
-              —meaning &apos;truth&apos;—is more than just a title for us; it is
-              our operating philosophy. I believe that as a business owner, you
-              deserve more than just a list of numbers at the end of the month.
-              You deserve a partner who values transparency as much as you do.
-              Our mission is to simplify the complexities of finance so you can
-              focus on what you do best: growing your vision. At Veritas, we are
-              dedicated to excellence and integrity, ensuring that every piece
-              of advice we give is rooted in truth and designed to deliver
-              lasting value. We don&apos;t just manage your accounts; we empower
-              your future.
+              When I founded NewBestway Inc., it was with a single belief: financial clarity drives business success. The name reflects our commitment to truth and transparency. We don’t just manage your accounts—we simplify finance, provide honest guidance, and empower you to focus on growing your vision. At <span className="!font-black text-[#027C99]">NewBestway Inc.</span>, integrity and excellence guide everything we do, delivering value that lasts.
             </p>
 
             <div className="max-sm:flex max-sm:flex-col max-sm:items-start max-sm:text-left w-full">
-              <h3 className="text-[32px] text-[#232061] leading-[50px] max-xl:text-[44px] max-xl:leading-[48px] max-lg:text-[38px] max-lg:leading-[42px] max-md:text-[32px] max-md:leading-9 max-sm:!text-[32px] max-sm:!leading-[20px] font-roboto max-sm:text-left">
-                Omair Ahsan{" "}
+              <h3 className="text-[32px] text-[#027C99] leading-[50px] max-xl:text-[44px] max-xl:leading-[48px] max-lg:text-[38px] max-lg:leading-[42px] max-md:text-[32px] max-md:leading-9 max-sm:!text-[32px] max-sm:!leading-[20px] font-roboto max-sm:text-left">
+                Salahuddin Ahmed{" "}
               </h3>
-              <p className="font-semibold text-lg text-[#232061] italic max-sm:text-let font-serif">
+              <p className="font-semibold text-lg text-[#027C99] italic max-sm:text-let font-serif">
                 CEO/Founder
               </p>
-              <p className="text-lg text-[#232061] italic max-sm:text-let font-serif">
-                CPA, CGA
-              </p>
+              
             </div>
           </div>
         </div>

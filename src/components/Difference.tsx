@@ -1,17 +1,178 @@
 import React from "react";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function TheDifference() {
   return (
     <section
       className="w-full bg-white px-6 py-20 relative z-10 max-sm:pt-32"
       style={{
-        // fontFamily: "Roboto Serif, serif",
         width: "100%",
         minHeight: "auto",
       }}
     >
+      <style>{`
+        /* Perspective wrapper — applied to the grid container */
+        .cards-grid {
+          perspective: 1000px;
+        }
+
+        /* Each card is a 3D scene wrapper */
+        .card-scene {
+          perspective: 900px;
+        }
+
+        .difference-card {
+          position: relative;
+          border-radius: 20px;
+          padding: 36px 28px;
+          background: linear-gradient(160deg, #ffffff 0%, #f0f8ff 100%);
+          border: 1px solid rgba(31, 137, 163, 0.18);
+
+          /* Resting 3D state — slightly tilted toward viewer */
+          transform:
+            perspective(900px)
+            rotateX(4deg)
+            translateZ(0px);
+          transform-style: preserve-3d;
+
+          box-shadow:
+            /* tight contact shadow underneath */
+            0 2px 4px rgba(35, 32, 97, 0.10),
+            /* mid lift shadow */
+            0 12px 30px rgba(31, 137, 163, 0.14),
+            /* wide ambient glow */
+            0 30px 60px rgba(31, 137, 163, 0.09),
+            /* teal edge bloom */
+            0 0 0 1px rgba(31, 137, 163, 0.08),
+            inset 0 1px 0 rgba(255, 255, 255, 1);
+
+          transition:
+            transform 0.45s cubic-bezier(0.23, 1, 0.32, 1),
+            box-shadow 0.45s cubic-bezier(0.23, 1, 0.32, 1),
+            border-color 0.4s ease;
+
+          overflow: hidden;
+          will-change: transform;
+        }
+
+        /* Inner top-light sheen — simulates light hitting the front face */
+        .difference-card::before {
+          content: "";
+          position: absolute;
+          top: 0; left: 0; right: 0;
+          height: 55%;
+          border-radius: 20px 20px 0 0;
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.70) 0%,
+            rgba(255, 255, 255, 0.0) 100%
+          );
+          pointer-events: none;
+          z-index: 1;
+          transition: opacity 0.4s ease;
+        }
+
+        /* Glowing gradient border ring */
+        .difference-card::after {
+          content: "";
+          position: absolute;
+          inset: -1px;
+          border-radius: 20px;
+          padding: 1px;
+          background: linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.9) 0%,
+            rgba(31, 137, 163, 0.55) 35%,
+            rgba(62, 207, 142, 0.40) 65%,
+            rgba(35, 32, 97, 0.12) 100%
+          );
+          -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+          -webkit-mask-composite: xor;
+          mask-composite: exclude;
+          pointer-events: none;
+          opacity: 0.8;
+          transition: opacity 0.4s ease;
+          z-index: 2;
+        }
+
+        /* HOVER — card leaps out toward viewer */
+        .difference-card:hover {
+          transform:
+            perspective(900px)
+            rotateX(0deg)
+            translateZ(28px)
+            translateY(-8px);
+
+          border-color: rgba(31, 137, 163, 0.35);
+
+          box-shadow:
+            /* deep contact shadow — card now far from surface */
+            0 28px 50px rgba(35, 32, 97, 0.18),
+            /* wide lift glow */
+            0 40px 80px rgba(31, 137, 163, 0.18),
+            /* green bloom */
+            0 0 60px rgba(62, 207, 142, 0.10),
+            /* tight rim */
+            0 0 0 1px rgba(31, 137, 163, 0.15),
+            inset 0 1px 0 rgba(255, 255, 255, 1);
+        }
+
+        .difference-card:hover::before { opacity: 0.6; }
+        .difference-card:hover::after  { opacity: 1; }
+
+        /* Icon */
+        .card-icon {
+          filter: drop-shadow(0 0 5px rgba(31, 137, 163, 0.25));
+          transition: filter 0.35s ease, transform 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+          position: relative;
+          z-index: 3;
+        }
+        .difference-card:hover .card-icon {
+          transform: translateZ(8px) scale(1.08);
+          filter:
+            drop-shadow(0 0 10px rgba(62, 207, 142, 0.65))
+            drop-shadow(0 0 24px rgba(31, 137, 163, 0.35));
+        }
+
+        /* Heading — light green + glow */
+        .card-heading {
+          color: #3ecf8e !important;
+          position: relative;
+          z-index: 3;
+          text-shadow:
+            0 0 10px rgba(62, 207, 142, 0.45),
+            0 0 22px rgba(62, 207, 142, 0.20);
+          transition: text-shadow 0.35s ease, transform 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .difference-card:hover .card-heading {
+          transform: translateZ(6px);
+          text-shadow:
+            0 0 14px rgba(62, 207, 142, 0.75),
+            0 0 36px rgba(62, 207, 142, 0.40),
+            0 0 60px rgba(62, 207, 142, 0.18);
+        }
+
+        /* Paragraph — soft teal glow */
+        .card-paragraph {
+          color: #232061 !important;
+          position: relative;
+          z-index: 3;
+          text-shadow:
+            0 0 8px rgba(31, 137, 163, 0.14),
+            0 0 18px rgba(31, 137, 163, 0.06);
+          transition: text-shadow 0.35s ease, transform 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .difference-card:hover .card-paragraph {
+          transform: translateZ(4px);
+          text-shadow:
+            0 0 12px rgba(31, 137, 163, 0.26),
+            0 0 28px rgba(31, 137, 163, 0.13);
+        }
+      `}</style>
+
       <div className="max-w-7xl mx-auto relative z-10">
         <AnimateOnScroll delay={0}>
           <h3 className="text-center text-[56px] max-sm:text-[40px] max-lg:text-[48px] mb-12 max-sm:mb-10 font-extralight text-[#232061] overflow-visible">
@@ -27,23 +188,26 @@ export default function TheDifference() {
               }}
             >
               {" "}
-              Difference
+              Impact
             </span>
-            <span className="block -mt-3 text-[#232061]"> We Deliver</span>
+            <span className="block -mt-3 text-[#232061]"> We Make</span>
           </h3>
         </AnimateOnScroll>
 
-        <Image
+        {/* <Image
           src="/Veritias.png"
           alt="Veritas-Logo"
           width={1000}
           height={1000}
           className="absolute top-0 left-20 z-1 h-[145px] w-[145px] max-sm:left-[unset] max-sm:right-0 max-sm:-top-32"
-        />
+        /> */}
 
-        <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-8 max-sm:gap-12">
+        <div className="cards-grid grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-8 max-sm:gap-12" style={{ perspective: "1000px" }}>
+
+          {/* Card 1 */}
           <div className="difference-card flex items-center justify-start flex-col gap-[16px]">
             <svg
+              className="card-icon"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
@@ -55,17 +219,18 @@ export default function TheDifference() {
                 fill="#232061"
               />
             </svg>
-            <h3 className="font-roboto text-[18px] max-lg:text-[16px] max-sm:text-base text-[#232061] font-bold text-center max-md:leading-[40px]">
-              Precision You Can Count On
+            <h3 className="card-heading font-roboto text-[18px] max-lg:text-[16px] max-sm:text-base font-bold text-center max-md:leading-[40px]">
+              Turning Data Into Decisions
             </h3>
-            <p className="font-flex text-base max-sm:text-sm text-[#232061] text-center leading-[30px]">
-              Every number tells a story, we make sure yours is accurate,
-              compliant, and clear. Our meticulous attention to detail ensures
-              your books, taxes, and audits are done right every time.
+            <p className="card-paragraph font-flex text-base max-sm:text-sm text-center leading-[30px]">
+              We do more than bookkeeping. Our team turns financial data into actionable strategies that empower you to make informed business decisions, optimize cash flow, and plan for sustainable growth.
             </p>
           </div>
+
+          {/* Card 2 */}
           <div className="difference-card flex items-center justify-start flex-col gap-[16px]">
             <svg
+              className="card-icon"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
@@ -77,17 +242,18 @@ export default function TheDifference() {
                 fill="#232061"
               />
             </svg>
-            <h3 className="font-roboto text-[18px] max-lg:text-[16px] max-sm:text-[20px] text-[#232061] font-bold text-center max-md:leading-[40px]">
-              Strategic Insight, Not Just Numbers
+            <h3 className="card-heading font-roboto text-[18px] max-lg:text-[16px] max-sm:text-[20px] font-bold text-center max-md:leading-[40px]">
+              Numbers You Can Trust
             </h3>
-            <p className="font-flex text-base max-sm:text-[15px] text-[#232061] text-center leading-[30px]">
-              We go beyond bookkeeping. Our team translates financial data into
-              actionable strategies that help you make confident business
-              decisions, improve cash flow, and plan for sustainable growth.
+            <p className="card-paragraph font-flex text-base max-sm:text-[15px] text-center leading-[30px]">
+              Every number tells a story, and we make sure yours is precise, compliant, and easy to understand. With meticulous attention to detail, we ensure your accounting, taxes, and audits are handled correctly—every time.
             </p>
           </div>
+
+          {/* Card 3 */}
           <div className="difference-card flex items-center justify-start flex-col gap-[16px]">
             <svg
+              className="card-icon"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
@@ -116,16 +282,14 @@ export default function TheDifference() {
                 strokeLinejoin="round"
               />
             </svg>
-            <h3 className="font-roboto text-[18px] max-lg:text-[16px] max-sm:text-[20px] text-[#232061] font-bold text-center max-md:leading-[40px]">
-              Trusted Partners for Your Success
+            <h3 className="card-heading font-roboto text-[18px] max-lg:text-[16px] max-sm:text-[20px] font-bold text-center max-md:leading-[40px]">
+              A Partner You Can Count On
             </h3>
-            <p className="font-flex text-base max-sm:text-[15px] text-[#232061] text-center leading-[30px]">
-              From startups to established enterprises, businesses across Canada
-              trust us for dependable, transparent, and personalized service. We
-              treat your business like our own, with honesty, clarity, and
-              accountability.
+            <p className="card-paragraph font-flex text-base max-sm:text-[15px] text-center leading-[30px]">
+              From startups to established companies, businesses across the USA rely on us for dependable, transparent, and personalized service. We treat your business as our own, with integrity, clarity, and accountability.
             </p>
           </div>
+
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ function Hero() {
         }}
       >
         <Image
-          src="/hero-bg.webp"
+          src="/hero-1.jpg"
           alt="hero-hero"
           width={1440}
           height={100}
@@ -38,21 +38,24 @@ function Hero() {
         />
 
         <Image
-          src="/hero-bg3.webp"
+          src="/hero-1.jpg"
           alt="hero-hero"
           width={1440}
           height={100}
           className="w-full h-full object-cover absolute top-0 left-0 z-0 max-xs:!h-[1000px] hidden max-sm:block"
         />
 
+        {/* Dark overlay */}
+        <div className="absolute inset-0 z-[1] bg-black/30" />
+
         <div className="relative z-10 flex items-center h-full px-8 max-sm:px-10 max-w-7xl mx-auto pt-52 max-sm:pt-64 max-xs:-mt-[20px]">
-          <div className="w-full text-[#232061] font-semibold">
+          <div className="w-full text-[#ffffff] font-semibold">
             <p className="text-[20px] max-sm:text-base font-roboto font-semibold mb-4">
               Welcome to
             </p>
 
             <h1 className="text-[70px] max-lg:text-[55px] max-md:text-[50px] max-sm:text-[40px] leading-[70px] mb-6 font-semibold font-serif max-sm:leading-[40px]">
-              Veritas <br /> Accounting
+              NewBestway<br /> Accounting
             </h1>
 
             <div className="flex items-center justify-between mt-10 max-xs:mt-16 w-full max-sm:flex-col max-sm:items-start max-sm:gap-6 max-sm:mt-0 flex-wrap gap-12">
@@ -60,29 +63,29 @@ function Hero() {
                 <div className="flex items-center">
                   <span
                     className="text-[100px] md:text-8xl leading-[100px] max-sm:text-5xl"
-                    style={{ color: "#027C99", fontWeight: 100 }}
+                    style={{ color: "#afecdb", fontWeight: 100 }}
                   >
                     (
                   </span>
-                  <div className="mx-4  text-[#027C99] font-normal pt-3">
+                  <div className="mx-4  text-[#afecdb] font-normal pt-3">
                     <p className="text-[30px] max-sm:text-base leading-[40px] max-sm:leading-normal">
-                      Simplifying
+                      Clear
                     </p>
                     <p className="text-[30px] max-sm:text-base leading-[40px] max-sm:leading-normal">
-                      Numbers
+                      Finances
                     </p>
                   </div>
                   <span
                     className="text-[100px] md:text-8xl leading-[100px] max-sm:text-5xl"
-                    style={{ color: "#027C99", fontWeight: 100 }}
+                    style={{ color: "#afecdb", fontWeight: 100 }}
                   >
                     )
                   </span>
                 </div>
 
                 <div className="text-[32px] max-sm:text-[18px] leading-[40px] max-sm:leading-normal font-extrabold pt-3">
-                  <p style={{ color: "#232061" }}>Maximizing</p>
-                  <p style={{ color: "#232061" }}>Results</p>
+                  <p style={{ color: "#fff" }}>Better</p>
+                  <p style={{ color: "#fff" }}>Outcomes</p>
                 </div>
               </div>
 
@@ -100,15 +103,15 @@ function Hero() {
                   }}
                   className="group px-10 py-4 rounded-full font-semibold text-white transition-all inline-flex items-center gap-3 hover:opacity-90 text-base leading-[10px] max-sm:text-[15px] max-sm:py-3 max-sm:px-6 max-sm:leading-[20px] cursor-pointer"
                   style={{
-                    backgroundColor: "#232061",
+                    backgroundColor: "#027C99",
                   }}
                 >
                   <span className="relative inline-block overflow-hidden">
                     <span className="inline-block transition-all duration-300 ease-out group-hover:opacity-0 group-hover:-translate-y-full leading-normal">
-                      Talk to an Expert
+                      Schedule An Appointment
                     </span>
                     <span className="absolute inset-0 inline-block transition-all duration-300 ease-out opacity-0 translate-y-full group-hover:opacity-100 group-hover:translate-y-0 leading-normal">
-                      Talk to an Expert
+                      Schedule An Appointment
                     </span>
                   </span>
                   <span className="relative inline-block overflow-hidden w-6 h-6 max-sm:!w-[18px] max-sm:!h-[18px]">

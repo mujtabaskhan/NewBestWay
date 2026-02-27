@@ -4,7 +4,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="w-full bg-[#232061] p-3 min-h-screen rounded-bl-[60px] rounded-br-[60px]">
+    <div className="w-full bg-[#ffffff] p-3 min-h-screen rounded-bl-[60px] rounded-br-[60px]">
       <main
         className="w-full min-h-screen relative rounded-tl-[60px] rounded-tr-[60px] overflow-hidden"
         style={{ width: "100%", minHeight: "100vh" }}
@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
                 </Link>
                 <span className="font-black mx-5">&gt;</span>
                 <span className="font-normal underline">
-                  Veritas Accounting & Tax Consultants
+                  New Bestway Inc
                 </span>
               </nav>
             </div>
@@ -35,17 +35,18 @@ const PrivacyPolicy = () => {
               <h1 className="text-[30px] font-semibold mb-12 max-sm:mb-6 max-sm:text-xl">
                 Privacy Policy
               </h1>
-              <p>Effective Date: 01/11/2025</p>
-              <p>Last Updated: 01/11/2025</p>
+              <p>Effective Date: 27/02/2026</p>
+              <p>Last Updated: 27/02/2026</p>
 
               <p>
-                At Veritas Accounting & Tax Consultants (“we,” “our,” or “us”),
-                your privacy is our top priority. We are committed to protecting
-                your personal information and maintaining transparency about how
-                we collect, use, and safeguard it. This policy outlines our
-                practices in compliance with Canada’s Personal Information
-                Protection and Electronic Documents Act (PIPEDA) and other
-                applicable laws.
+                At New Bestway Inc ("we," "our," or "us"), your privacy is our
+                top priority. We are committed to protecting your personal
+                information and maintaining transparency about how we collect,
+                use, and safeguard it. This policy outlines our practices in
+                compliance with applicable U.S. federal and state privacy laws,
+                including the Gramm-Leach-Bliley Act (GLBA), the California
+                Consumer Privacy Act (CCPA) where applicable, and other
+                relevant regulations.
               </p>
             </div>
 
@@ -63,7 +64,9 @@ const PrivacyPolicy = () => {
                     Business name, registration details, and financial records
                   </li>
                   <li>
-                    Tax information (e.g., SIN, BN, or CRA account details)
+                    Tax information (e.g., Social Security Number (SSN),
+                    Employer Identification Number (EIN), or IRS account
+                    details)
                   </li>
                   <li>Payment and billing information</li>
                   <li>Website usage data through cookies and analytics</li>
@@ -78,10 +81,16 @@ const PrivacyPolicy = () => {
                   <li>
                     Communicate with you regarding your account or inquiries
                   </li>
-                  <li>Prepare and file tax returns and financial reports</li>
+                  <li>
+                    Prepare and file federal and state tax returns and financial
+                    reports
+                  </li>
                   <li>Maintain accurate business records</li>
                   <li>Improve our website, services, and client experience</li>
-                  <li>Meet legal, regulatory, and compliance requirements</li>
+                  <li>
+                    Meet legal, regulatory, and compliance requirements under
+                    U.S. federal and state laws
+                  </li>
                 </ul>
                 <p>
                   We will never sell, rent, or share your personal information
@@ -119,7 +128,7 @@ const PrivacyPolicy = () => {
                   <li>Required by law, regulation, or court order</li>
                   <li>
                     Necessary to complete tax filings, audits, or other services
-                    (e.g., CRA correspondence)
+                    (e.g., IRS or state tax authority correspondence)
                   </li>
                   <li>
                     With trusted third-party service providers who support our
@@ -130,28 +139,37 @@ const PrivacyPolicy = () => {
 
               <p>
                 All third parties are bound by confidentiality and data
-                protection obligations.
+                protection obligations consistent with applicable U.S. law.
               </p>
 
               <div>
                 <h3 className="font-bold">5. Your Rights</h3>
-                <p>You have the right to:</p>
+                <p>
+                  Depending on your state of residence, you may have the right
+                  to:
+                </p>
                 <ul className="pl-8 list-disc">
                   <li>Access the personal information we hold about you</li>
                   <li>
                     Request corrections to inaccurate or incomplete information
                   </li>
                   <li>
+                    Opt out of the sale of your personal information (we do not
+                    sell personal information)
+                  </li>
+                  <li>
                     Withdraw consent (subject to legal or contractual
                     limitations)
                   </li>
                   <li>
-                    Request deletion of your data when it’s no longer required
+                    Request deletion of your data when it is no longer required,
+                    subject to applicable legal retention obligations
                   </li>
                 </ul>
                 <p>
-                  To exercise these rights, please contact us using the
-                  information below.
+                  California residents may have additional rights under the
+                  CCPA. To exercise any of these rights, please contact us using
+                  the information below.
                 </p>
               </div>
 
@@ -160,7 +178,8 @@ const PrivacyPolicy = () => {
                 <p>
                   We retain your information only as long as necessary to
                   fulfill the purposes for which it was collected and to comply
-                  with legal and professional obligations.
+                  with applicable U.S. federal and state legal and professional
+                  obligations, including IRS record-keeping requirements.
                 </p>
               </div>
 
@@ -168,9 +187,9 @@ const PrivacyPolicy = () => {
                 <h3 className="font-bold">7. Cookies and Website Tracking</h3>
                 <div>
                   Our website uses cookies to improve your experience and
-                  collect anonymous analytics data.You can manage your cookie
-                  preferences at any time through your browser settings.For more
-                  details, please review our{" "}
+                  collect anonymous analytics data. You can manage your cookie
+                  preferences at any time through your browser settings. For
+                  more details, please review our{" "}
                   <Link href="/cookies" className="underline">
                     Cookies Policy
                   </Link>{" "}
@@ -192,7 +211,7 @@ const PrivacyPolicy = () => {
                 <p>
                   We may update this Privacy Policy periodically to reflect
                   changes in our practices or legal requirements. Updates will
-                  be posted on this page with a revised “Last Updated” date.
+                  be posted on this page with a revised "Last Updated" date.
                 </p>
               </div>
 

@@ -238,15 +238,20 @@ const Navbar = () => {
     };
   }, [isExpertiseOpen]);
 
-  const expertiseItems = [
-    { label: "Accounting", href: "/services#accounting" },
-    { label: "Tax Services", href: "/services#tax" },
-    { label: "Payroll Services", href: "/services#payroll" },
-    { label: "Audit & Compliance Support", href: "/services#compliance" },
-    { label: "Business Advisory", href: "/services#advisory" },
-    { label: "Business Administration", href: "/services#administration" },
-    { label: "CFO Services", href: "/services#cfo-services" },
-  ];
+const expertiseItems = [
+  { label: "Company Formations", href: "/services#company-formations" },
+  { label: "Not For Profits", href: "/services#not-for-profits" },
+  { label: "Sole Proprietorship", href: "/services#sole-proprietorship" },
+  { label: "DBAs", href: "/services#dbas" },
+  { label: "Tax ID Numbers", href: "/services#tax-id-numbers" },
+  { label: "S. Corporation Election", href: "/services#s-corporation-election" },
+  { label: "Amendments / Changes", href: "/services#amendments-changes" },
+  { label: "Minutes / Resolutions", href: "/services#minutes-resolutions" },
+  { label: "Registered Agent", href: "/services#registered-agent" },
+  { label: "Corporate File", href: "/services#corporate-file" },
+  { label: "Dissolutions", href: "/services#dissolutions" },
+  { label: "Reinstatements", href: "/services#reinstatements" },
+];
 
   // Check if a nav link is active
   const isActive = (href: string) => {
@@ -270,13 +275,11 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-[100] max-lg:transition-none transition-transform duration-300 max-lg:z-[6] ${
-          isNotHomeOrExpertise ? "max-lg:relative max-lg:bg-white" : ""
-        } ${
-          isNavbarVisible
+        className={`fixed top-0 left-0 right-0 z-[100] max-lg:transition-none transition-transform duration-300 max-lg:z-[6] ${isNotHomeOrExpertise ? "max-lg:relative max-lg:bg-white" : ""
+          } ${isNavbarVisible
             ? "translate-y-0"
             : "-translate-y-full max-lg:translate-y-0"
-        }`}
+          }`}
       >
         <div
           className="backdrop-overlay"
@@ -313,30 +316,25 @@ const Navbar = () => {
           }}
         />
         <div
-          className={`relative navbar-container ${
-            isExpertiseOpen ? "navbar-expanded" : ""
-          } ${isScrolled && !isExpertiseOpen ? "navbar-scrolled" : ""} ${
-            isCollapsed ? "navbar-collapsed" : ""
-          }`}
+          className={`relative navbar-container ${isExpertiseOpen ? "navbar-expanded" : ""
+            } ${isScrolled && !isExpertiseOpen ? "navbar-scrolled" : ""} ${isCollapsed ? "navbar-collapsed" : ""
+            }`}
         >
           <div
-            className={`expertise-bg ${
-              isExpertiseOpen ? "expertise-bg-open" : "expertise-bg-closed"
-            }`}
+            className={`expertise-bg ${isExpertiseOpen ? "expertise-bg-open" : "expertise-bg-closed"
+              }`}
           />
           <div
-            className={`max-w-7xl mx-auto py-14 max-sm:pb-8 px-10 max-sm:px-6 relative z-[200] ${
-              isNotHomeOrExpertise ? "max-sm:px-4" : "max-sm:px-6"
-            }`}
+            className={`max-w-7xl mx-auto py-14 max-sm:pb-8 px-10 max-sm:px-6 relative z-[200] ${isNotHomeOrExpertise ? "max-sm:px-4" : "max-sm:px-6"
+              }`}
           >
             <div
-              className={`flex items-center transition-all duration-300 max-lg:justify-between  ${
-                isScrolled && !isExpertiseOpen
-                  ? "justify-between"
-                  : isScrolled && isExpertiseOpen
+              className={`flex items-center transition-all duration-300 max-lg:justify-between  ${isScrolled && !isExpertiseOpen
+                ? "justify-between"
+                : isScrolled && isExpertiseOpen
                   ? "justify-between"
                   : "justify-between"
-              }`}
+                }`}
             >
               <Link
                 href="/"
@@ -344,7 +342,7 @@ const Navbar = () => {
               >
                 <div className="relative w-[300px] h-[80px] max-md:w-[270px] max-md:h-[72px] max-lg:w-[250px] max-lg:h-[67px]">
                   <Image
-                    src={isExpertiseOpen ? "/logo-white.png" : "/logo.png"}
+                    src={isExpertiseOpen ? "/2.png" : "/2.png"}
                     alt="logo"
                     width={1000}
                     height={1000}
@@ -355,30 +353,27 @@ const Navbar = () => {
               </Link>
 
               <div
-                className={`navbar-bg max-lg:hidden flex items-center gap-6 px-4 py-3 rounded-[50px] text-[15px] transition-all duration-300 border border-[#027C99] ${
-                  isExpertiseOpen
-                    ? "text-white border-white bg-white/10"
-                    : isScrolled
+                className={`navbar-bg max-lg:hidden flex items-center gap-6 px-4 py-3 rounded-[50px] text-[15px] transition-all duration-300 border border-[#027C99] ${isExpertiseOpen
+                  ? "text-white border-white bg-white/10"
+                  : isScrolled
                     ? "text-[#232061] bg-white/80"
                     : "text-[#232061] bg-[#FFFFFF4D]"
-                }`}
+                  }`}
                 style={{
-                  border: `1px soliid ${
-                    isExpertiseOpen ? "#FFFFFF" : "#027C99"
-                  }`,
+                  border: `1px soliid ${isExpertiseOpen ? "#FFFFFF" : "#027C99"
+                    }`,
                 }}
               >
                 <Link
                   href="/"
-                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${
-                    isActive("/")
-                      ? isExpertiseOpen
-                        ? "bg-white/20 text-white"
-                        : "bg-[#027C99] text-white"
-                      : isExpertiseOpen
+                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/")
+                    ? isExpertiseOpen
+                      ? "bg-white/20 text-white"
+                      : "bg-[#027C99] text-white"
+                    : isExpertiseOpen
                       ? "hover:bg-white/20 hover:text-white"
                       : "hover:bg-[#B8DDE5]"
-                  }`}
+                    }`}
                 >
                   Home
                 </Link>
@@ -390,15 +385,14 @@ const Navbar = () => {
                 >
                   <Link
                     href="/expertise"
-                    className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${
-                      isActive("/expertise") || pathname.startsWith("/services")
-                        ? isExpertiseOpen
-                          ? "bg-white/20 text-white"
-                          : "bg-[#027C99] text-white"
-                        : isExpertiseOpen
+                    className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/expertise") || pathname.startsWith("/services")
+                      ? isExpertiseOpen
+                        ? "bg-white/20 text-white"
+                        : "bg-[#027C99] text-white"
+                      : isExpertiseOpen
                         ? "hover:bg-white/20 hover:text-white"
                         : "hover:bg-[#B8DDE5]"
-                    }`}
+                      }`}
                   >
                     <span className="flex items-center gap-2">
                       Expertise{" "}
@@ -412,7 +406,7 @@ const Navbar = () => {
                       >
                         <path
                           d="M10.5477 4.43302L11.4392 5.32537L6.58042 10.1858C6.50257 10.2641 6.40999 10.3263 6.30801 10.3687C6.20604 10.4112 6.09668 10.433 5.98622 10.433C5.87577 10.433 5.76641 10.4112 5.66443 10.3687C5.56246 10.3263 5.46988 10.2641 5.39202 10.1858L0.530762 5.32537L1.42227 4.43386L5.98496 8.99571L10.5477 4.43302Z"
-                          fill={isExpertiseOpen ? "#FFFFFF" : "#232061"}
+                          fill={isExpertiseOpen ? "#FFFFFF" : "#027C99"}
                         />
                       </svg>
                     </span>
@@ -420,49 +414,46 @@ const Navbar = () => {
                 </div>
 
                 <Link
-                  href="/careers"
-                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${
-                    isActive("/careers")
-                      ? isExpertiseOpen
-                        ? "bg-white/20 text-white"
-                        : "bg-[#027C99] text-white"
-                      : isExpertiseOpen
-                      ? "hover:bg-white/20 hover:text-white"
-                      : "hover:bg-[#B8DDE5]"
-                  }`}
-                >
-                  Careers
-                </Link>
-
-                <Link
-                  href="/team"
-                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${
-                    isActive("/team")
-                      ? isExpertiseOpen
-                        ? "bg-white/20 text-white"
-                        : "bg-[#027C99] text-white"
-                      : isExpertiseOpen
-                      ? "hover:bg-white/20 hover:text-white"
-                      : "hover:bg-[#B8DDE5]"
-                  }`}
-                >
-                  Team
-                </Link>
-
-                <Link
                   href="/faq"
-                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${
-                    isActive("/faq")
-                      ? isExpertiseOpen
-                        ? "bg-white/20 text-white"
-                        : "bg-[#027C99] text-white"
-                      : isExpertiseOpen
+                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/careers")
+                    ? isExpertiseOpen
+                      ? "bg-white/20 text-white"
+                      : "bg-[#027C99] text-white"
+                    : isExpertiseOpen
                       ? "hover:bg-white/20 hover:text-white"
                       : "hover:bg-[#B8DDE5]"
-                  }`}
+                    }`}
                 >
                   FAQ
                 </Link>
+
+                <Link
+                  href="/contact"
+                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/team")
+                    ? isExpertiseOpen
+                      ? "bg-white/20 text-white"
+                      : "bg-[#027C99] text-white"
+                    : isExpertiseOpen
+                      ? "hover:bg-white/20 hover:text-white"
+                      : "hover:bg-[#B8DDE5]"
+                    }`}
+                >
+                  Contact Us
+                </Link>
+
+                {/* <Link
+                  href="/faq"
+                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/faq")
+                      ? isExpertiseOpen
+                        ? "bg-white/20 text-white"
+                        : "bg-[#027C99] text-white"
+                      : isExpertiseOpen
+                        ? "hover:bg-white/20 hover:text-white"
+                        : "hover:bg-[#B8DDE5]"
+                    }`}
+                >
+                  FAQ
+                </Link> */}
               </div>
 
               <div
@@ -530,56 +521,49 @@ const Navbar = () => {
                   aria-label="Toggle menu"
                 >
                   <span
-                    className={`w-5 h-0.5 bg-[#232061] transition-all duration-300 origin-center ${
-                      isMenuOpen ? "rotate-45 translate-y-[5px]" : ""
-                    }`}
+                    className={`w-5 h-0.5 bg-[#232061] transition-all duration-300 origin-center ${isMenuOpen ? "rotate-45 translate-y-[5px]" : ""
+                      }`}
                   />
                   <span
-                    className={`w-5 h-0.5 bg-[#232061] transition-all duration-300 ${
-                      isMenuOpen ? "opacity-0" : ""
-                    }`}
+                    className={`w-5 h-0.5 bg-[#232061] transition-all duration-300 ${isMenuOpen ? "opacity-0" : ""
+                      }`}
                   />
                   <span
-                    className={`w-5 h-0.5 bg-[#232061] transition-all duration-300 origin-center ${
-                      isMenuOpen ? "-rotate-45 -translate-y-[7px]" : ""
-                    }`}
+                    className={`w-5 h-0.5 bg-[#232061] transition-all duration-300 origin-center ${isMenuOpen ? "-rotate-45 -translate-y-[7px]" : ""
+                      }`}
                   />
                 </button>
 
                 <div
-                  className={`absolute right-0 top-full mt-2 bg-white rounded-3xl p-6 w-[280px] shadow-2xl z-50 transition-all duration-300 max-h-[420px] overflow-y-auto ${
-                    isMenuOpen
-                      ? "opacity-100 translate-y-0 pointer-events-auto"
-                      : "opacity-0 -translate-y-2 pointer-events-none"
-                  }`}
+                  className={`absolute right-0 top-full mt-2 bg-white rounded-3xl p-6 w-[280px] shadow-2xl z-50 transition-all duration-300 max-h-[420px] overflow-y-auto ${isMenuOpen
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-2 pointer-events-none"
+                    }`}
                 >
                   <div className="flex flex-col gap-4 mb-10">
                     <Link
                       href="/"
                       onClick={closeMenu}
-                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${
-                        isActive("/")
-                          ? "bg-[#027C99] text-white"
-                          : "text-[#232061] bg-[#F6F6F6]"
-                      }`}
+                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/")
+                        ? "bg-[#027C99] text-white"
+                        : "text-[#232061] bg-[#F6F6F6]"
+                        }`}
                     >
                       Home
                     </Link>
                     <div className="flex flex-col">
                       <button
                         onClick={toggleMobileExpertise}
-                        className={`text-center font-normal py-3 px-4 rounded-[35px] text-base flex items-center justify-center gap-2 ${
-                          isActive("/expertise") ||
+                        className={`text-center font-normal py-3 px-4 rounded-[35px] text-base flex items-center justify-center gap-2 ${isActive("/expertise") ||
                           pathname.startsWith("/services")
-                            ? "bg-[#027C99] text-white"
-                            : "text-[#232061] bg-[#F6F6F6]"
-                        }`}
+                          ? "bg-[#027C99] text-white"
+                          : "text-[#232061] bg-[#F6F6F6]"
+                          }`}
                       >
                         Expertise
                         <svg
-                          className={`w-4 h-4 transition-transform duration-300 ${
-                            isMobileExpertiseOpen ? "rotate-180" : ""
-                          }`}
+                          className={`w-4 h-4 transition-transform duration-300 ${isMobileExpertiseOpen ? "rotate-180" : ""
+                            }`}
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"
@@ -593,11 +577,10 @@ const Navbar = () => {
                         </svg>
                       </button>
                       <div
-                        className={`transition-all duration-300 ${
-                          isMobileExpertiseOpen
-                            ? "max-h-96 opacity-100 overflow-y-auto mobile-expertise-dropdown"
-                            : "max-h-0 opacity-0 overflow-hidden"
-                        }`}
+                        className={`transition-all duration-300 ${isMobileExpertiseOpen
+                          ? "max-h-96 opacity-100 overflow-y-auto mobile-expertise-dropdown"
+                          : "max-h-0 opacity-0 overflow-hidden"
+                          }`}
                       >
                         <div className="flex flex-col gap-2 pl-4 pt-2">
                           {expertiseItems.map((item) => (
@@ -623,33 +606,30 @@ const Navbar = () => {
                     <Link
                       href="/careers"
                       onClick={closeMenu}
-                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${
-                        isActive("/careers")
-                          ? "bg-[#027C99] text-white"
-                          : "text-[#232061] bg-[#F6F6F6]"
-                      }`}
+                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/careers")
+                        ? "bg-[#027C99] text-white"
+                        : "text-[#232061] bg-[#F6F6F6]"
+                        }`}
                     >
                       Careers
                     </Link>
                     <Link
                       href="/team"
                       onClick={closeMenu}
-                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${
-                        isActive("/team")
-                          ? "bg-[#027C99] text-white"
-                          : "text-[#232061] bg-[#F6F6F6]"
-                      }`}
+                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/team")
+                        ? "bg-[#027C99] text-white"
+                        : "text-[#232061] bg-[#F6F6F6]"
+                        }`}
                     >
                       Team
                     </Link>
                     <Link
                       href="/faq"
                       onClick={closeMenu}
-                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${
-                        isActive("/faq")
-                          ? "bg-[#027C99] text-white"
-                          : "text-[#232061] bg-[#F6F6F6]"
-                      }`}
+                      className={`text-center font-normal py-3 px-4 rounded-[35px] text-base ${isActive("/faq")
+                        ? "bg-[#027C99] text-white"
+                        : "text-[#232061] bg-[#F6F6F6]"
+                        }`}
                     >
                       FAQ
                     </Link>
@@ -684,19 +664,18 @@ const Navbar = () => {
 
           {(isMounted || isExpertiseOpen) && (
             <div
-              className={`expertise-content max-lg:hidden ${
-                isExpertiseOpen ? "expertise-open" : "expertise-closed"
-              } ${!isMounted ? "expertise-no-transition" : ""}`}
+              className={`expertise-content max-lg:hidden ${isExpertiseOpen ? "expertise-open" : "expertise-closed"
+                } ${!isMounted ? "expertise-no-transition" : ""}`}
               onMouseEnter={handleExpertiseEnter}
               onMouseLeave={handleExpertiseLeave}
               style={
                 !isExpertiseOpen
                   ? {
-                      visibility: "hidden",
-                      maxHeight: "0",
-                      height: "0",
-                      opacity: "0",
-                    }
+                    visibility: "hidden",
+                    maxHeight: "0",
+                    height: "0",
+                    opacity: "0",
+                  }
                   : undefined
               }
             >

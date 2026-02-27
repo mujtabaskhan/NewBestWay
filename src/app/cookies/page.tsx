@@ -4,7 +4,7 @@ import React from "react";
 
 const Cookie = () => {
   return (
-    <div className="w-full bg-[#232061] p-3 min-h-screen rounded-bl-[60px] rounded-br-[60px]">
+    <div className="w-full bg-[#ffffff] p-3 min-h-screen rounded-bl-[60px] rounded-br-[60px]">
       <main
         className="w-full min-h-screen relative rounded-tl-[60px] rounded-tr-[60px] overflow-hidden"
         style={{ width: "100%", minHeight: "100vh" }}
@@ -26,7 +26,7 @@ const Cookie = () => {
                 </Link>
                 <span className="font-black mx-5">&gt;</span>
                 <span className="font-normal underline">
-                  Veritas Accounting & Tax Consultants
+                  New Bestway Inc
                 </span>
               </nav>
             </div>
@@ -36,11 +36,13 @@ const Cookie = () => {
                 Cookie Settings
               </h1>
               <p>
-                At Veritas Accounting & Tax Consultants, we use cookies to
-                improve your browsing experience and to help us understand how
-                our website is being used. Cookies are small text files stored
-                on your device that allow us to remember your preferences and
-                provide a more personalized experience.
+                At New Bestway Inc, we use cookies to improve your browsing
+                experience and to help us understand how our website is being
+                used. Cookies are small text files stored on your device that
+                allow us to remember your preferences and provide a more
+                personalized experience. Our use of cookies is in accordance
+                with applicable U.S. privacy laws, including the California
+                Consumer Privacy Act (CCPA) where applicable.
               </p>
               <p>You can choose which types of cookies you allow below:</p>
             </div>
@@ -78,7 +80,10 @@ const Cookie = () => {
                 <h3 className="font-bold">4. Marketing Cookies</h3>
                 <p>
                   We use these to deliver relevant ads and measure the
-                  effectiveness of our marketing campaigns.
+                  effectiveness of our marketing campaigns. California residents
+                  may opt out of the use of cookies that constitute a "sale" of
+                  personal information under the CCPA by adjusting their
+                  preferences below or through their browser settings.
                 </p>
               </div>
 
@@ -87,13 +92,16 @@ const Cookie = () => {
                 <p>
                   You can manage or disable cookies through your browser
                   settings at any time. Please note that disabling certain
-                  cookies may affect website functionality.
+                  cookies may affect website functionality. Residents of
+                  California and other states with applicable privacy laws may
+                  have additional rights regarding the use of tracking
+                  technologies on our site.
                 </p>
               </div>
 
               <div className="italic">
                 For more information, please review our{" "}
-                <Link href="privacy-policy" className="underline ">
+                <Link href="privacy-policy" className="underline">
                   Privacy Policy.
                 </Link>
               </div>

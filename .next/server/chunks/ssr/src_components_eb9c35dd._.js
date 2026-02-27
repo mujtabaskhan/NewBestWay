@@ -861,72 +861,62 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$embla$2d$car
 const services = [
     {
         id: 1,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "Company Formations",
         image: "/expertise-2.webp"
     },
     {
         id: 2,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "Not For Profits",
         image: "/expertise-2.webp"
     },
     {
         id: 3,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "Sole Proprietorship",
         image: "/expertise-2.webp"
     },
     {
         id: 4,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "DBAs",
         image: "/expertise-2.webp"
     },
     {
         id: 5,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "Tax ID Numbers",
         image: "/expertise-2.webp"
     },
     {
         id: 6,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "S. Corporation Election",
         image: "/expertise-2.webp"
     },
     {
         id: 7,
-        title: "Service Heading",
-        subServices: [
-            "Sub-service 01",
-            "Sub-service 02",
-            "Sub-service 03"
-        ],
+        title: "Ammendments/Changes",
+        image: "/expertise-2.webp"
+    },
+    {
+        id: 8,
+        title: "Minutes/Resolutions",
+        image: "/expertise-2.webp"
+    },
+    {
+        id: 9,
+        title: "Registered Agent",
+        image: "/expertise-2.webp"
+    },
+    {
+        id: 10,
+        title: "Corporate File",
+        image: "/expertise-2.webp"
+    },
+    {
+        id: 11,
+        title: "Dissolutions",
+        image: "/expertise-2.webp"
+    },
+    {
+        id: 12,
+        title: "Reinstatements",
         image: "/expertise-2.webp"
     }
 ];
@@ -967,12 +957,12 @@ function ExpertiseSection() {
                     className: "grayscale brightness-110"
                 }, void 0, false, {
                     fileName: "[project]/src/components/expertise/Expertise.tsx",
-                    lineNumber: 88,
+                    lineNumber: 57,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                lineNumber: 87,
+                lineNumber: 56,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -998,14 +988,14 @@ function ExpertiseSection() {
                                         children: "Spectrum"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                         className: "jsx-c1a40a7504b4c7b9"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                        lineNumber: 115,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1013,13 +1003,13 @@ function ExpertiseSection() {
                                         children: "of our Services"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 85,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                lineNumber: 100,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1033,12 +1023,12 @@ function ExpertiseSection() {
                                             className: "h-5 w-5 text-[#232061]"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 95,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1049,24 +1039,24 @@ function ExpertiseSection() {
                                             className: "h-5 w-5 text-[#232061]"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                            lineNumber: 133,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                lineNumber: 120,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                        lineNumber: 99,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1100,7 +1090,7 @@ function ExpertiseSection() {
                                                         className: "object-cover transition-transform duration-500 group-hover:scale-105"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 121,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1121,23 +1111,23 @@ function ExpertiseSection() {
                                                                 className: "jsx-c1a40a7504b4c7b9"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                                lineNumber: 167,
+                                                                lineNumber: 136,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 129,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 128,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 120,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1148,22 +1138,14 @@ function ExpertiseSection() {
                                                         children: service.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                        lineNumber: 180,
+                                                        lineNumber: 149,
                                                         columnNumber: 21
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                        className: "jsx-c1a40a7504b4c7b9" + " " + "space-y-5 mb-12 flex-1",
-                                                        children: service.subServices.map((sub, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                className: "jsx-c1a40a7504b4c7b9" + " " + "text-[#6c757d] text-[17px] font-medium leading-relaxed",
-                                                                children: sub
-                                                            }, i, false, {
-                                                                fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                                lineNumber: 185,
-                                                                columnNumber: 25
-                                                            }, this))
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-c1a40a7504b4c7b9" + " " + "flex-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 154,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1174,46 +1156,46 @@ function ExpertiseSection() {
                                                                 className: "w-5 h-5 transition-transform group-hover:translate-x-1"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                                lineNumber: 197,
+                                                                lineNumber: 159,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                        lineNumber: 195,
+                                                        lineNumber: 157,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 148,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 118,
                                         columnNumber: 17
                                     }, this)
                                 }, service.id, false, {
                                     fileName: "[project]/src/components/expertise/Expertise.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 111,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/expertise/Expertise.tsx",
-                            lineNumber: 140,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/expertise/Expertise.tsx",
-                        lineNumber: 139,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                lineNumber: 97,
+                lineNumber: 66,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1226,12 +1208,12 @@ function ExpertiseSection() {
                     className: "grayscale"
                 }, void 0, false, {
                     fileName: "[project]/src/components/expertise/Expertise.tsx",
-                    lineNumber: 209,
+                    lineNumber: 171,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/expertise/Expertise.tsx",
-                lineNumber: 208,
+                lineNumber: 170,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1241,7 +1223,7 @@ function ExpertiseSection() {
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/expertise/Expertise.tsx",
-        lineNumber: 85,
+        lineNumber: 54,
         columnNumber: 5
     }, this);
 }
@@ -1284,14 +1266,14 @@ function Hero() {
             },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    src: "/expertise-hero.png",
+                    src: "/expert.jpg",
                     alt: "expertise-hero",
                     width: 1440,
                     height: 100,
                     className: "w-full h-full object-cover absolute top-0 left-0 z-0"
                 }, void 0, false, {
                     fileName: "[project]/src/components/expertise/Hero.tsx",
-                    lineNumber: 34,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1301,7 +1283,7 @@ function Hero() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/expertise/Hero.tsx",
-                    lineNumber: 42,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1314,7 +1296,7 @@ function Hero() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/expertise/Hero.tsx",
-                    lineNumber: 50,
+                    lineNumber: 49,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1324,41 +1306,41 @@ function Hero() {
                             className: "w-full",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "font-roboto text-[64px] max-md:text-[40px] max-sm:text-[30px] leading-[70px] text-[#232061] mb-15 max-xl:mb-3 max-sm:leading-[50px] font-light",
+                                    className: "font-roboto text-[64px] max-md:text-[40px] max-sm:text-[30px] leading-[70px] text-[#027C99] mb-15 max-xl:mb-3 max-sm:leading-[50px] font-light",
                                     children: [
                                         "Our ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/expertise/Hero.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 64,
                                             columnNumber: 19
                                         }, this),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-serif font-semibold",
-                                            children: "Expertise"
+                                            children: "Services"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/expertise/Hero.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/expertise/Hero.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-[#232061] text-[20px] leading-[32px] max-w-4xl max-sm:text-xs mt-5 font-normal font-roboto cloudy-text max-sm:leading-normal",
-                                    children: "At Veritas Accounting and Tax Consultants, we provide more than just numbers, we deliver clarity, confidence, and strategies to help your business grow. Whether you’re a small business owner, entrepreneur, or corporate client, our dedicated team offers tailored services designed to simplify your finances and maximize results. Explore our full range of services below:"
+                                    children: "At NewBestway Inc., we offer more than just numbers—we provide clarity, confidence, and strategies to help your business thrive. Whether you’re a small business owner, entrepreneur, or corporate client, our expert team delivers customized solutions designed to simplify your finances and drive results. Discover our full range of services below:"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/expertise/Hero.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/expertise/Hero.tsx",
-                            lineNumber: 63,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1376,7 +1358,7 @@ function Hero() {
                                 },
                                 className: "px-9 py-4 rounded-full font-medium text-white transition-all flex justify-center items-center gap-3 hover:opacity-90 text-xl leading-[10px] max-sm:text-xs max-sm:py-3 max-sm:px-6 max-sm:leading-[20px] cursor-pointer font-serif",
                                 style: {
-                                    backgroundColor: "#232061"
+                                    backgroundColor: "#027C99"
                                 },
                                 children: [
                                     "Learn More",
@@ -1394,29 +1376,29 @@ function Hero() {
                                             "stroke-linejoin": "round"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/expertise/Hero.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 98,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/expertise/Hero.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 91,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/expertise/Hero.tsx",
-                                lineNumber: 80,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/expertise/Hero.tsx",
-                            lineNumber: 79,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/expertise/Hero.tsx",
-                    lineNumber: 62,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this)
             ]
@@ -1648,32 +1630,52 @@ const Navbar = ()=>{
     ]);
     const expertiseItems = [
         {
-            label: "Accounting",
-            href: "/services#accounting"
+            label: "Company Formations",
+            href: "/services#company-formations"
         },
         {
-            label: "Tax Services",
-            href: "/services#tax"
+            label: "Not For Profits",
+            href: "/services#not-for-profits"
         },
         {
-            label: "Payroll Services",
-            href: "/services#payroll"
+            label: "Sole Proprietorship",
+            href: "/services#sole-proprietorship"
         },
         {
-            label: "Audit & Compliance Support",
-            href: "/services#compliance"
+            label: "DBAs",
+            href: "/services#dbas"
         },
         {
-            label: "Business Advisory",
-            href: "/services#advisory"
+            label: "Tax ID Numbers",
+            href: "/services#tax-id-numbers"
         },
         {
-            label: "Business Administration",
-            href: "/services#administration"
+            label: "S. Corporation Election",
+            href: "/services#s-corporation-election"
         },
         {
-            label: "CFO Services",
-            href: "/services#cfo-services"
+            label: "Amendments / Changes",
+            href: "/services#amendments-changes"
+        },
+        {
+            label: "Minutes / Resolutions",
+            href: "/services#minutes-resolutions"
+        },
+        {
+            label: "Registered Agent",
+            href: "/services#registered-agent"
+        },
+        {
+            label: "Corporate File",
+            href: "/services#corporate-file"
+        },
+        {
+            label: "Dissolutions",
+            href: "/services#dissolutions"
+        },
+        {
+            label: "Reinstatements",
+            href: "/services#reinstatements"
         }
     ];
     // Check if a nav link is active
@@ -1721,7 +1723,7 @@ const Navbar = ()=>{
                         className: "jsx-18d33d113bb50e1e" + " " + "backdrop-overlay"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Navbar.tsx",
-                        lineNumber: 281,
+                        lineNumber: 284,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1731,7 +1733,7 @@ const Navbar = ()=>{
                                 className: "jsx-18d33d113bb50e1e" + " " + `expertise-bg ${isExpertiseOpen ? "expertise-bg-open" : "expertise-bg-closed"}`
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Navbar.tsx",
-                                lineNumber: 322,
+                                lineNumber: 323,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1745,7 +1747,7 @@ const Navbar = ()=>{
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "jsx-18d33d113bb50e1e" + " " + "relative w-[300px] h-[80px] max-md:w-[270px] max-md:h-[72px] max-lg:w-[250px] max-lg:h-[67px]",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: isExpertiseOpen ? "/logo-white.png" : "/logo.png",
+                                                    src: isExpertiseOpen ? "/2.png" : "/2.png",
                                                     alt: "logo",
                                                     width: 1000,
                                                     height: 1000,
@@ -1753,17 +1755,17 @@ const Navbar = ()=>{
                                                     className: "w-full h-full object-contain transition-opacity duration-300"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 346,
+                                                    lineNumber: 344,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Navbar.tsx",
-                                                lineNumber: 345,
+                                                lineNumber: 343,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Navbar.tsx",
-                                            lineNumber: 341,
+                                            lineNumber: 339,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1778,7 +1780,7 @@ const Navbar = ()=>{
                                                     children: "Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 371,
+                                                    lineNumber: 367,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1802,65 +1804,56 @@ const Navbar = ()=>{
                                                                     className: "jsx-18d33d113bb50e1e" + " " + "-mt-1",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                         d: "M10.5477 4.43302L11.4392 5.32537L6.58042 10.1858C6.50257 10.2641 6.40999 10.3263 6.30801 10.3687C6.20604 10.4112 6.09668 10.433 5.98622 10.433C5.87577 10.433 5.76641 10.4112 5.66443 10.3687C5.56246 10.3263 5.46988 10.2641 5.39202 10.1858L0.530762 5.32537L1.42227 4.43386L5.98496 8.99571L10.5477 4.43302Z",
-                                                                        fill: isExpertiseOpen ? "#FFFFFF" : "#232061",
+                                                                        fill: isExpertiseOpen ? "#FFFFFF" : "#027C99",
                                                                         className: "jsx-18d33d113bb50e1e"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                                        lineNumber: 413,
+                                                                        lineNumber: 407,
                                                                         columnNumber: 25
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 405,
+                                                                    lineNumber: 399,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 403,
+                                                            lineNumber: 397,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                        lineNumber: 391,
+                                                        lineNumber: 386,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 386,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/careers",
-                                                    className: `nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/careers") ? isExpertiseOpen ? "bg-white/20 text-white" : "bg-[#027C99] text-white" : isExpertiseOpen ? "hover:bg-white/20 hover:text-white" : "hover:bg-[#B8DDE5]"}`,
-                                                    children: "Careers"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 422,
-                                                    columnNumber: 17
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/team",
-                                                    className: `nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/team") ? isExpertiseOpen ? "bg-white/20 text-white" : "bg-[#027C99] text-white" : isExpertiseOpen ? "hover:bg-white/20 hover:text-white" : "hover:bg-[#B8DDE5]"}`,
-                                                    children: "Team"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 437,
+                                                    lineNumber: 381,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/faq",
-                                                    className: `nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/faq") ? isExpertiseOpen ? "bg-white/20 text-white" : "bg-[#027C99] text-white" : isExpertiseOpen ? "hover:bg-white/20 hover:text-white" : "hover:bg-[#B8DDE5]"}`,
+                                                    className: `nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/careers") ? isExpertiseOpen ? "bg-white/20 text-white" : "bg-[#027C99] text-white" : isExpertiseOpen ? "hover:bg-white/20 hover:text-white" : "hover:bg-[#B8DDE5]"}`,
                                                     children: "FAQ"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 452,
+                                                    lineNumber: 416,
+                                                    columnNumber: 17
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/contact",
+                                                    className: `nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/team") ? isExpertiseOpen ? "bg-white/20 text-white" : "bg-[#027C99] text-white" : isExpertiseOpen ? "hover:bg-white/20 hover:text-white" : "hover:bg-[#B8DDE5]"}`,
+                                                    children: "Contact Us"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/Navbar.tsx",
+                                                    lineNumber: 430,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Navbar.tsx",
-                                            lineNumber: 357,
+                                            lineNumber: 355,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1883,7 +1876,7 @@ const Navbar = ()=>{
                                                             className: "jsx-18d33d113bb50e1e"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 479,
+                                                            lineNumber: 470,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1895,7 +1888,7 @@ const Navbar = ()=>{
                                                             className: "jsx-18d33d113bb50e1e"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 486,
+                                                            lineNumber: 477,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1907,13 +1900,13 @@ const Navbar = ()=>{
                                                             className: "jsx-18d33d113bb50e1e"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 493,
+                                                            lineNumber: 484,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 471,
+                                                    lineNumber: 462,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1933,18 +1926,18 @@ const Navbar = ()=>{
                                                         className: "jsx-18d33d113bb50e1e"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                        lineNumber: 516,
+                                                        lineNumber: 507,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 502,
+                                                    lineNumber: 493,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Navbar.tsx",
-                                            lineNumber: 468,
+                                            lineNumber: 459,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1959,27 +1952,27 @@ const Navbar = ()=>{
                                                             className: "jsx-18d33d113bb50e1e" + " " + `w-5 h-0.5 bg-[#232061] transition-all duration-300 origin-center ${isMenuOpen ? "rotate-45 translate-y-[5px]" : ""}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 532,
+                                                            lineNumber: 523,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "jsx-18d33d113bb50e1e" + " " + `w-5 h-0.5 bg-[#232061] transition-all duration-300 ${isMenuOpen ? "opacity-0" : ""}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 537,
+                                                            lineNumber: 527,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "jsx-18d33d113bb50e1e" + " " + `w-5 h-0.5 bg-[#232061] transition-all duration-300 origin-center ${isMenuOpen ? "-rotate-45 -translate-y-[7px]" : ""}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 542,
+                                                            lineNumber: 531,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 527,
+                                                    lineNumber: 518,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1995,7 +1988,7 @@ const Navbar = ()=>{
                                                                     children: "Home"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 557,
+                                                                    lineNumber: 544,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2019,18 +2012,18 @@ const Navbar = ()=>{
                                                                                         className: "jsx-18d33d113bb50e1e"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                                                        lineNumber: 587,
+                                                                                        lineNumber: 571,
                                                                                         columnNumber: 27
                                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                                    lineNumber: 579,
+                                                                                    lineNumber: 564,
                                                                                     columnNumber: 25
                                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                                            lineNumber: 569,
+                                                                            lineNumber: 555,
                                                                             columnNumber: 23
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2045,7 +2038,7 @@ const Navbar = ()=>{
                                                                                             children: item.label
                                                                                         }, item.href, false, {
                                                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                                                            lineNumber: 604,
+                                                                                            lineNumber: 587,
                                                                                             columnNumber: 29
                                                                                         }, ("TURBOPACK compile-time value", void 0))),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2055,24 +2048,24 @@ const Navbar = ()=>{
                                                                                         children: "View More Services"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                                                        lineNumber: 613,
+                                                                                        lineNumber: 596,
                                                                                         columnNumber: 27
                                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/components/Navbar.tsx",
-                                                                                lineNumber: 602,
+                                                                                lineNumber: 585,
                                                                                 columnNumber: 25
                                                                             }, ("TURBOPACK compile-time value", void 0))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                                            lineNumber: 595,
+                                                                            lineNumber: 579,
                                                                             columnNumber: 23
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 568,
+                                                                    lineNumber: 554,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2082,7 +2075,7 @@ const Navbar = ()=>{
                                                                     children: "Careers"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 623,
+                                                                    lineNumber: 606,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2092,7 +2085,7 @@ const Navbar = ()=>{
                                                                     children: "Team"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 634,
+                                                                    lineNumber: 616,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2102,13 +2095,13 @@ const Navbar = ()=>{
                                                                     children: "FAQ"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 645,
+                                                                    lineNumber: 626,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 556,
+                                                            lineNumber: 543,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2122,7 +2115,7 @@ const Navbar = ()=>{
                                                                     className: "cursor-pointer"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 659,
+                                                                    lineNumber: 639,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2134,31 +2127,31 @@ const Navbar = ()=>{
                                                                     onClick: ()=>window.open("https://www.instagram.com/veritas_accounting/", "_blank")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 666,
+                                                                    lineNumber: 646,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 658,
+                                                            lineNumber: 638,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 549,
+                                                    lineNumber: 537,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Navbar.tsx",
-                                            lineNumber: 526,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 332,
+                                    lineNumber: 331,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
@@ -2197,12 +2190,12 @@ const Navbar = ()=>{
                                                                         children: item.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                                        lineNumber: 715,
+                                                                        lineNumber: 694,
                                                                         columnNumber: 29
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 714,
+                                                                    lineNumber: 693,
                                                                     columnNumber: 27
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2214,23 +2207,23 @@ const Navbar = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                                    lineNumber: 719,
+                                                                    lineNumber: 698,
                                                                     columnNumber: 27
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 713,
+                                                            lineNumber: 692,
                                                             columnNumber: 25
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, item.href, false, {
                                                         fileName: "[project]/src/components/Navbar.tsx",
-                                                        lineNumber: 707,
+                                                        lineNumber: 686,
                                                         columnNumber: 23
                                                     }, ("TURBOPACK compile-time value", void 0)))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Navbar.tsx",
-                                                lineNumber: 705,
+                                                lineNumber: 684,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2244,7 +2237,7 @@ const Navbar = ()=>{
                                                             children: "View More Services"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 731,
+                                                            lineNumber: 710,
                                                             columnNumber: 23
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -2260,51 +2253,51 @@ const Navbar = ()=>{
                                                                 className: "jsx-18d33d113bb50e1e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Navbar.tsx",
-                                                                lineNumber: 738,
+                                                                lineNumber: 717,
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Navbar.tsx",
-                                                            lineNumber: 732,
+                                                            lineNumber: 711,
                                                             columnNumber: 23
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Navbar.tsx",
-                                                    lineNumber: 727,
+                                                    lineNumber: 706,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Navbar.tsx",
-                                                lineNumber: 726,
+                                                lineNumber: 705,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Navbar.tsx",
-                                        lineNumber: 704,
+                                        lineNumber: 683,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Navbar.tsx",
-                                    lineNumber: 703,
+                                    lineNumber: 682,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Navbar.tsx",
-                                lineNumber: 686,
+                                lineNumber: 666,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Navbar.tsx",
-                        lineNumber: 315,
+                        lineNumber: 318,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Navbar.tsx",
-                lineNumber: 272,
+                lineNumber: 277,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {

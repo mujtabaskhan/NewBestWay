@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Veritas Accounting and Tax Consultants",
-  description: "Veritas Accounting",
+  title: "New Bestway Inc",
+  description: "New Bestway",
 };
 
 export default function RootLayout({

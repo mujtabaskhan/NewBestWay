@@ -11,69 +11,69 @@ const FAQ = () => {
 
   const faqItems = [
     {
-      question: "What services do you offer?",
+      question: "What services does New Bestway Inc. provide?",
       answer:
-        "We provide a full range of accounting, tax, and financial management solutions tailored to support businesses and individuals with accuracy and reliability. Our services include: Bookkeeping (monthly, quarterly, annual), Corporate tax filing, Personal tax filing, Payroll management, Financial reporting & analysis, Business advisory, Virtual CFO services, Dedicated accounting teams (outsourced finance department), CRA, corporate, payroll & HST audit support, and Business incorporation & compliance.",
+        "New Bestway Inc. delivers comprehensive accounting and financial solutions designed for U.S. businesses and individuals. Our services include monthly and annual bookkeeping, corporate and individual tax preparation (federal & state), payroll processing, financial statement preparation, business consulting, Virtual CFO services, fully outsourced accounting departments, IRS audit representation, sales tax compliance, and business formation support.",
     },
     {
-      question: "How much do your services cost?",
+      question: "What are your pricing options?",
       answer:
-        "Our pricing is customized based on your unique needs to ensure fairness, transparency, and value. Fees depend on: The type and complexity of service, Size and structure of your business, Transaction volume and reporting frequency, Additional services requested (payroll, advisory, CFO), and Dedicated accounting team requirements. Customized quotes are provided after a consultation.",
+        "Our fees are tailored to fit the scope and complexity of your needs. Pricing depends on the type of service, size of your organization, transaction volume, reporting frequency, and whether you require payroll, advisory, or CFO-level support. We provide personalized quotes following an initial consultation.",
     },
     {
-      question: "How long does onboarding take and what is the process?",
+      question: "What does your onboarding process look like?",
       answer:
-        "We follow a structured onboarding process to ensure a smooth transition and accurate setup of your financial systems. The typical steps include: Needs assessment and initial review, Document collection, Cleanup or migration of prior records, Software and workflow setup, Assigning a dedicated team, and Establishing reporting schedule.",
+        "We use a streamlined onboarding system to ensure accuracy and efficiency from day one. The process typically includes an initial consultation, review of existing records, secure document collection, cleanup or migration of prior financial data, system setup, team assignment, and establishing reporting timelines.",
     },
     {
-      question: "Do you work with clients outside the GTA?",
+      question: "Do you work with clients outside your local area?",
       answer:
-        "Yes — our fully digital and paperless workflow allows us to work seamlessly with clients regardless of location. We support: Clients across Ontario, Clients across multiple Canadian provinces, and Fully remote operations through secure cloud-based systems.",
+        "Yes. Our firm operates fully online using secure, cloud-based platforms. We proudly serve clients across multiple U.S. states through virtual meetings, encrypted file sharing, and remote accounting systems.",
     },
     {
-      question: "Do you handle CRA or other audits?",
+      question: "Can you represent clients during IRS audits?",
       answer:
-        "We provide professional representation and support during a wide range of audits to ensure compliance and reduce stress. Our audit assistance includes: CRA audits, Corporate tax audits, Payroll audits, HST/GST audits, Third-party and industry-required financial audits, and Support with communication, documentation, and compliance.",
+        "Absolutely. We provide professional audit support and representation for IRS examinations, corporate tax reviews, payroll tax audits, sales tax audits, and other regulatory inquiries. Our team assists with documentation preparation, communication, and compliance guidance throughout the process.",
     },
     {
-      question: "Which industries do you serve?",
+      question: "What industries does New Bestway Inc. serve?",
       answer:
-        "We work with clients across diverse sectors, giving us insight into industry-specific requirements and challenges. We serve: Construction & contracting, Education & private schools (including Montessori), Healthcare professionals, Hospitality & restaurants, IT & consultants, Legal practices & law firms, Manufacturing & small-scale production, Mortgage & real estate professionals, Non-profit organizations, Professional services & contractors, Trading & small commerce, and Transportation, logistics & trucking.",
+        "We support businesses across a broad range of industries including construction, private education institutions, healthcare providers, hospitality and restaurants, IT and technology consultants, law firms, manufacturing, real estate and mortgage professionals, nonprofit organizations, professional service firms, retail and trading businesses, and transportation and logistics companies.",
     },
     {
-      question: "How secure is my financial data?",
+      question: "How do you protect client financial information?",
       answer:
-        "We maintain strict security protocols to protect your information at every step. Our security practices include: Encrypted data transmission, Secure cloud storage, Strict access controls, Regular backups, Confidentiality protocols, and Compliant accounting platforms.",
+        "Data security is a top priority at New Bestway Inc. We implement encrypted data transfers, secure cloud accounting platforms, restricted access controls, multi-factor authentication, routine system backups, and compliance with U.S. data protection standards.",
     },
     {
-      question: "Do you work with individuals as well as corporate clients?",
+      question: "Do you work with individuals as well as businesses?",
       answer:
-        "Yes — we support a wide range of clients with tailored solutions to fit different financial needs and complexities. Our clients include: Individuals, Sole proprietors, Professionals, Small and medium-sized businesses, Corporations, Non-profits, and Owner-managed businesses.",
+        "Yes. We provide customized solutions for individuals, sole proprietors, partnerships, LLCs, corporations, nonprofits, and owner-operated businesses. Our services are structured to meet the unique financial needs of each client.",
     },
     {
-      question: "Can you assist with business incorporation and compliance?",
+      question: "Can you help with business formation in the U.S.?",
       answer:
-        "We guide new and growing businesses through the setup and compliance process to ensure everything is structured correctly from day one. Our support includes: Incorporation setup, Federal and provincial registrations, Share structure setup, Business number and tax account setup, Initial filings, and Ongoing compliance.",
+        "Yes. We assist entrepreneurs with forming LLCs, corporations, and other legal entities. Our services include entity selection guidance, EIN registration, federal and state tax setup, initial compliance filings, and ongoing reporting requirements.",
     },
     {
-      question: "How do I get started?",
+      question: "How do I begin working with New Bestway Inc.?",
       answer:
-        "Getting started is easy — simply reach out and we'll guide you through the next steps. Here's how to begin: Fill out our consultation request form, Share a brief overview of your needs, Book a discovery call with our team, and Receive a customized service plan and quote. Most inquiries receive a response within 1–2 business days.",
+        "Getting started is simple. Contact us through our website or by phone, schedule a consultation, share your business goals and current financial situation, and receive a customized service proposal. Most inquiries are answered within one to two business days.",
     },
     {
-      question: "Do you offer virtual or remote services?",
+      question: "Do you offer remote accounting services?",
       answer:
-        "Yes — our firm operates on a modern, paperless, cloud-based model that supports fully virtual delivery. We use: 100% paperless workflow, Secure online portals for document sharing, Remote meetings and consultations, and Accessibility for clients across Canada.",
+        "Yes. Our firm operates on a fully digital infrastructure, allowing us to deliver bookkeeping, tax, payroll, and advisory services virtually. Clients benefit from secure document portals, remote consultations, and cloud-based accounting systems accessible from anywhere in the U.S.",
     },
     {
-      question: "Are my financial records safe with you?",
+      question: "Are my records kept confidential?",
       answer:
-        "Absolutely — protecting your financial information is a top priority. Our safeguards include: Encrypted data storage and transfers, Strict access permissions, Secure cloud-based accounting systems, Routine data backups, and Compliance with industry privacy standards.",
+        "Confidentiality and privacy are fundamental to our practice. We follow strict internal controls, encrypted storage protocols, and professional ethical standards to ensure your financial records remain secure at all times.",
     },
     {
       question: "How can I contact your team?",
       answer:
-        "You can reach us through multiple convenient channels: Submit a request through our website contact form, Email our support team directly, Call us for immediate assistance. Expect replies within 1–2 business days.",
+        "You can reach New Bestway Inc. by submitting a request through our website, emailing our support team, or calling our office directly. Our team typically responds within one to two business days.",
     },
   ];
 
@@ -88,21 +88,276 @@ const FAQ = () => {
         style={{ width: "100%", minHeight: "100vh" }}
       >
         <Navbar />
-        <section
-          className="w-full bg-white pb-[50px]"
-          style={{ width: "100%" }}
-        >
+
+        <style>{`
+          @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Outfit:wght@300;400;500;600&display=swap');
+
+          /* ── floating orb background ── */
+          .faq-bg {
+            position: relative;
+            background: #fff;
+            overflow: hidden;
+          }
+          .faq-bg::before {
+            content: '';
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(2,124,153,0.07) 0%, transparent 70%);
+            top: -200px;
+            right: -200px;
+            pointer-events: none;
+            animation: orbFloat 10s ease-in-out infinite;
+          }
+          .faq-bg::after {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(2,124,153,0.05) 0%, transparent 70%);
+            bottom: 100px;
+            left: -150px;
+            pointer-events: none;
+            animation: orbFloat 14s ease-in-out infinite reverse;
+          }
+
+          @keyframes orbFloat {
+            0%, 100% { transform: translateY(0px) scale(1); }
+            50% { transform: translateY(-30px) scale(1.05); }
+          }
+
+          /* ── FAQ item ── */
+          .faq-item {
+            position: relative;
+            border-radius: 20px;
+            background: transparent;
+            transition: background 0.35s ease, box-shadow 0.35s ease, transform 0.35s ease;
+            cursor: pointer;
+            overflow: hidden;
+          }
+
+          .faq-item::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 20px;
+            border: 1.5px solid transparent;
+            background: linear-gradient(135deg, rgba(2,124,153,0.18), rgba(2,124,153,0.05)) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.35s ease;
+            pointer-events: none;
+          }
+
+          .faq-item:hover::before,
+          .faq-item.is-open::before {
+            opacity: 1;
+          }
+
+          .faq-item:hover,
+          .faq-item.is-open {
+            background: linear-gradient(135deg, rgba(2,124,153,0.07) 0%, rgba(2,124,153,0.02) 100%);
+            box-shadow: 0 8px 40px rgba(2,124,153,0.1), 0 2px 8px rgba(2,124,153,0.05);
+            transform: translateY(-2px);
+          }
+
+          .faq-item-inner {
+            padding: 30px 36px;
+          }
+
+          @media (max-width: 640px) {
+            .faq-item-inner { padding: 20px 20px; }
+          }
+
+          /* header row */
+          .faq-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            user-select: none;
+          }
+
+          /* animated pill number */
+          .faq-pill {
+            flex-shrink: 0;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: #e6f5f8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #027C99;
+            transition: background 0.35s, color 0.35s, transform 0.35s;
+          }
+
+          .faq-item.is-open .faq-pill,
+          .faq-item:hover .faq-pill {
+            background: #027C99;
+            color: #fff;
+            transform: scale(1.1) rotate(-6deg);
+          }
+
+          .faq-question-text {
+            flex: 1;
+            font-family: 'Outfit', sans-serif;
+            font-size: 17px;
+            font-weight: 500;
+            color: #027C99;
+            line-height: 1.45;
+            transition: color 0.2s;
+          }
+
+          @media (max-width: 640px) {
+            .faq-question-text { font-size: 14px; }
+            .faq-pill { width: 34px; height: 34px; font-size: 13px; }
+          }
+
+          /* animated toggle icon */
+          .faq-toggle {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1.5px solid rgba(2,124,153,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: border-color 0.3s, background 0.3s;
+            position: relative;
+          }
+
+          .faq-item.is-open .faq-toggle {
+            border-color: #027C99;
+            background: #027C99;
+          }
+
+          .faq-toggle-bar {
+            position: absolute;
+            background: #027C99;
+            border-radius: 2px;
+            transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s, background 0.3s;
+          }
+
+          .faq-toggle-bar.h {
+            width: 14px;
+            height: 1.8px;
+          }
+
+          .faq-toggle-bar.v {
+            width: 1.8px;
+            height: 14px;
+            transform: scaleY(1);
+          }
+
+          .faq-item.is-open .faq-toggle-bar {
+            background: #fff;
+          }
+
+          .faq-item.is-open .faq-toggle-bar.v {
+            transform: scaleY(0);
+            opacity: 0;
+          }
+
+          .faq-item.is-open .faq-toggle-bar.h {
+            transform: rotate(180deg);
+          }
+
+          /* answer slide */
+          .faq-answer-wrap {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.42s cubic-bezier(0.4,0,0.2,1);
+          }
+
+          .faq-answer-wrap.open {
+            grid-template-rows: 1fr;
+          }
+
+          .faq-answer-inner {
+            overflow: hidden;
+          }
+
+          .faq-answer-text {
+            font-family: 'Outfit', sans-serif;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.8;
+            color: #3a8fa0;
+            padding: 16px 0 6px 64px;
+            opacity: 0;
+            transform: translateY(8px);
+            transition: opacity 0.35s ease 0.1s, transform 0.35s ease 0.1s;
+          }
+
+          @media (max-width: 640px) {
+            .faq-answer-text { padding-left: 54px; font-size: 13px; }
+          }
+
+          .faq-answer-wrap.open .faq-answer-text {
+            opacity: 1;
+            transform: translateY(0);
+          }
+
+          /* subtle separator line */
+          .faq-sep {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(2,124,153,0.12) 30%, rgba(2,124,153,0.12) 70%, transparent);
+            margin: 0 36px;
+          }
+
+          /* staggered entrance */
+          @keyframes fadeSlideUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to   { opacity: 1; transform: translateY(0); }
+          }
+
+          .faq-entry {
+            animation: fadeSlideUp 0.55s ease both;
+          }
+
+          /* left accent bar for open */
+          .faq-item.is-open .faq-item-inner {
+            position: relative;
+          }
+          .faq-item.is-open .faq-item-inner::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 20px;
+            bottom: 20px;
+            width: 3px;
+            border-radius: 4px;
+            background: linear-gradient(180deg, #027C99, #54bdd1);
+            animation: growBar 0.35s ease both;
+          }
+
+          @keyframes growBar {
+            from { transform: scaleY(0); transform-origin: top; }
+            to   { transform: scaleY(1); transform-origin: top; }
+          }
+        `}</style>
+
+        <section className="faq-bg w-full pb-[80px]">
           <div className="relative z-[10] max-lg:z-[1] max-w-7xl mx-auto px-14 max-sm:px-4 pt-52 max-lg:!pt-0 max-sm:mt-0 max-sm:!pt-3">
+
+            {/* Breadcrumb — untouched */}
             <div className="mb-12">
               <nav className="text-[#232061] text-xs font-flex max-sm:text-xs">
-                <Link href="/" className="font-normal">
-                  Home
-                </Link>{" "}
+                <Link href="/" className="font-normal">Home</Link>{" "}
                 <span className="font-black mx-5">&gt;</span>
                 <span className="font-normal">FAQ</span>
               </nav>
             </div>
 
+            {/* Hero — untouched */}
             <div className="mb-[129px] max-sm:mb-[65px]">
               <AnimateOnScroll delay={0}>
                 <h1 className="text-[#232061] font-semibold mb-9 text-[60px] max-sm:text-[30px] max-lg:text-[40px]">
@@ -118,49 +373,45 @@ const FAQ = () => {
               </p>
             </div>
 
-            <div className="space-y-8 max-sm:space-y-4">
-              {faqItems.map((item, index) => (
-                <div key={index}>
-                  <button
+            {/* ── FAQ LIST ── */}
+            <div className="flex flex-col" style={{ gap: "10px" }}>
+              {faqItems.map((item, index) => {
+                const isOpen = openIndex === index;
+                return (
+                  <div
+                    key={index}
+                    className={`faq-entry faq-item ${isOpen ? "is-open" : ""}`}
+                    style={{ animationDelay: `${index * 0.045}s` }}
                     onClick={() => toggleFAQ(index)}
-                    className="w-full px-8 py-3 rounded-[50px] border relative flex items-center justify-start"
-                    style={{
-                      borderColor: openIndex === index ? "#232061" : "#232061",
-                      backgroundColor:
-                        openIndex === index ? "transparent" : "transparent",
-                    }}
                   >
-                    <span className="text-left text-[22px] text-[#232061] font-roboto max-sm:text-xs">
-                      {item.question}
-                    </span>
-                    <svg
-                      width="25"
-                      height="13"
-                      viewBox="0 0 37 21"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className={`absolute right-8 transition-transform duration-300 max-sm:w-3 max-sm:h-2 ${
-                        openIndex === index ? "rotate-180" : ""
-                      }`}
-                    >
-                      <path
-                        d="M1.06055 1.06055L18.0605 18.0605L35.0605 1.06055"
-                        stroke="#232061"
-                        strokeWidth="2"
-                      />
-                    </svg>
-                  </button>
+                    <div className="faq-item-inner">
+                      {/* Question row */}
+                      <div className="faq-header">
+                        <div className="faq-pill">
+                          {String(index + 1).padStart(2, "0")}
+                        </div>
 
-                  {openIndex === index && (
-                    <div className="px-12 py-6 mt-3 max-sm:px-8 max-sm:py-2">
-                      <p className="text-xl text-[#232061] font-roboto max-sm:text-xs">
-                        {item.answer}
-                      </p>
+                        <p className="faq-question-text">{item.question}</p>
+
+                        <div className="faq-toggle">
+                          <span className="faq-toggle-bar h" />
+                          <span className="faq-toggle-bar v" />
+                        </div>
+                      </div>
+
+                      {/* Answer */}
+                      <div className={`faq-answer-wrap ${isOpen ? "open" : ""}`}>
+                        <div className="faq-answer-inner">
+                          <p className="faq-answer-text">{item.answer}</p>
+                        </div>
+                      </div>
                     </div>
-                  )}
-                </div>
-              ))}
+                  </div>
+                );
+              })}
             </div>
+            {/* ── END FAQ LIST ── */}
+
           </div>
         </section>
 

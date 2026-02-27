@@ -9,53 +9,22 @@ import useEmblaCarousel from "embla-carousel-react";
 interface ServiceCard {
   id: number;
   title: string;
-  subServices: string[];
   image: string;
 }
 
 const services: ServiceCard[] = [
-  {
-    id: 1,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
-  {
-    id: 2,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
-  {
-    id: 3,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
-  {
-    id: 4,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
-  {
-    id: 5,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
-  {
-    id: 6,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
-  {
-    id: 7,
-    title: "Service Heading",
-    subServices: ["Sub-service 01", "Sub-service 02", "Sub-service 03"],
-    image: "/expertise-2.webp",
-  },
+  { id: 1, title: "Company Formations", image: "/expertise-2.webp" },
+  { id: 2, title: "Not For Profits", image: "/expertise-2.webp" },
+  { id: 3, title: "Sole Proprietorship", image: "/expertise-2.webp" },
+  { id: 4, title: "DBAs", image: "/expertise-2.webp" },
+  { id: 5, title: "Tax ID Numbers", image: "/expertise-2.webp" },
+  { id: 6, title: "S. Corporation Election", image: "/expertise-2.webp" },
+  { id: 7, title: "Ammendments/Changes", image: "/expertise-2.webp" },
+  { id: 8, title: "Minutes/Resolutions", image: "/expertise-2.webp" },
+  { id: 9, title: "Registered Agent", image: "/expertise-2.webp" },
+  { id: 10, title: "Corporate File", image: "/expertise-2.webp" },
+  { id: 11, title: "Dissolutions", image: "/expertise-2.webp" },
+  { id: 12, title: "Reinstatements", image: "/expertise-2.webp" },
 ];
 
 export default function ExpertiseSection() {
@@ -180,16 +149,9 @@ export default function ExpertiseSection() {
                     <h3 className="text-[26px] font-bold text-[#232061] mb-6">
                       {service.title}
                     </h3>
-                    <ul className="space-y-5 mb-12 flex-1">
-                      {service.subServices.map((sub, i) => (
-                        <li
-                          key={i}
-                          className="text-[#6c757d] text-[17px] font-medium leading-relaxed"
-                        >
-                          {sub}
-                        </li>
-                      ))}
-                    </ul>
+
+                    {/* Spacer to preserve original height */}
+                    <div className="flex-1" />
 
                     {/* Pill Button */}
                     <button className="w-full rounded-full border border-[#232061] text-[#232061] hover:bg-[#232061] hover:text-white py-6 text-sm font-bold tracking-wide transition-all flex justify-center items-center gap-3 bg-transparent">

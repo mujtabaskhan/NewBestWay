@@ -9,7 +9,7 @@ export default function FAQ() {
    {
       question: "What services do you offer?",
       answer:
-        "We provide a full range of accounting, tax, and financial management solutions tailored to support businesses and individuals with accuracy and reliability. Our services include: Bookkeeping (monthly, quarterly, annual), Corporate tax filing, Personal tax filing, Payroll management, Financial reporting & analysis, Business advisory, Virtual CFO services, Dedicated accounting teams (outsourced finance department), CRA, corporate, payroll & HST audit support, and Business incorporation & compliance.",
+        "We provide comprehensive U.S.-based accounting, tax, and financial management services tailored for businesses and individuals. Our offerings include bookkeeping, federal and state tax preparation, payroll processing, and financial reporting. We also deliver business advisory and Virtual CFO services to support strategic growth. Additionally, we assist with IRS audits, compliance, and business formation to ensure smooth and reliable operations.",
     },
     {
       question: "Which industries do you serve?",
@@ -19,12 +19,12 @@ export default function FAQ() {
     {
       question: "Do you offer virtual or remote services?",
       answer:
-        "Yes — our firm operates on a modern, paperless, cloud-based model that supports fully virtual delivery. We use: 100% paperless workflow, Secure online portals for document sharing, Remote meetings and consultations, and Accessibility for clients across Canada.",
+        "Yes — our firm operates on a modern, paperless, cloud-based model that supports fully virtual delivery. We use: 100% paperless workflow, Secure online portals for document sharing, Remote meetings and consultations, and Accessibility for clients across USA.",
     },
     {
-      question: "Do you handle CRA or other audits?",
+      question: "Do you handle IRS or other audits?",
       answer:
-        "We provide professional representation and support during a wide range of audits to ensure compliance and reduce stress. Our audit assistance includes: CRA audits, Corporate tax audits, Payroll audits, HST/GST audits, Third-party and industry-required financial audits, and Support with communication, documentation, and compliance.",
+        "We provide professional representation and support during a wide range of U.S. audits to ensure full compliance and minimize stress. Our audit assistance includes IRS audits, corporate tax audits, payroll tax audits, and sales tax audits. We also support third-party and industry-required financial reviews. From handling communication to preparing documentation, we guide you through every step to ensure accuracy and compliance.",
     },
   ];
 
@@ -41,20 +41,18 @@ export default function FAQ() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-[74px] max-sm:mb-[59px]">
           <AnimateOnScroll delay={0}>
-            <h2 className="block max-sm:hidden text-[#232061] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[80px]">
-              Frequently Asked Questions
+            <h2 className="block max-sm:hidden text-[#027C99] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[80px]">
+             Have questions about our accounting services?
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={0}>
-            <h2 className="hidden max-sm:block text-[#232061] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[25px]">
+            <h2 className="hidden max-sm:block text-[#027C99] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[25px]">
               FAQ
             </h2>
           </AnimateOnScroll>
-          <p className="text-[#232061] text-[20px] font-flex max-sm:text-[15px] leading-[30px] font-normal">
-            Have questions about our accounting services? We&apos;ve compiled answers to the most common
-            queries to help you better understand how Veritas Accounting can
-            streamline your financial processes.
+          <p className="text-[#000000] text-[20px] font-flex max-sm:text-[15px] leading-[30px] font-normal">
+            Whether you are looking for guidance on accounting, tax planning, compliance, or financial strategy, this section is designed to address your key concerns and help you see how NewBestway Inc. streamlines complex financial tasks into efficient, well-managed systems that save you time and drive better results.
           </p>
         </div>
 
@@ -105,7 +103,7 @@ export default function FAQ() {
         <div className="flex justify-end mt-[74px] max-sm:mt-[38px] pb-[100px] max-sm:pb-[86px]">
           <Link
             href={"/faq"}
-            className="px-5 py-1 rounded-full text-[25px] max-sm:text-[15px] max-sm:px-3 leading-[10px] font-semibold inline-flex items-center gap-2 bg-[#232061] text-white"
+            className="px-5 py-1 rounded-full text-[25px] max-sm:text-[15px] max-sm:px-3 leading-[10px] font-semibold inline-flex items-center gap-2 bg-[#027C99] text-white"
           >
             Learn More
             <svg

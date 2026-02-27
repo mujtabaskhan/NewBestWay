@@ -4,7 +4,7 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <div className="w-full bg-[#232061] p-3 min-h-screen rounded-bl-[60px] rounded-br-[60px]">
+    <div className="w-full bg-[#ffffff] p-3 min-h-screen rounded-bl-[60px] rounded-br-[60px]">
       <main
         className="w-full min-h-screen relative rounded-tl-[60px] rounded-tr-[60px] overflow-hidden"
         style={{ width: "100%", minHeight: "100vh" }}
@@ -26,7 +26,7 @@ const Terms = () => {
                 </Link>
                 <span className="font-black mx-5">&gt;</span>
                 <span className="font-normal underline">
-                  Veritas Accounting & Tax Consultants
+                  New Bestway Inc
                 </span>
               </nav>
             </div>
@@ -35,15 +35,14 @@ const Terms = () => {
               <h1 className="text-[30px] font-semibold mb-12 max-sm:mb-6 max-sm:text-xl">
                 Terms & Conditions
               </h1>
-              <p>Effective Date: 01/11/2025</p>
-              <p>Last Updated: 01/11/2025</p>
+              <p>Effective Date: 27/02/2026</p>
+              <p>Last Updated: 27/02/2026</p>
 
               <p>
-                Welcome to Veritas Accounting & Tax Consultants (“we,” “our,” or
-                “us”). By accessing or using our website
-                https://www.veritasaccounting.ca or engaging our services, you
-                agree to comply with and be bound by these Terms and Conditions.
-                Please read them carefully before proceeding.
+                Welcome to New Bestway Inc ("we," "our," or "us"). By accessing
+                or using our website or engaging our services, you agree to
+                comply with and be bound by these Terms and Conditions. Please
+                read them carefully before proceeding.
               </p>
             </div>
 
@@ -60,11 +59,10 @@ const Terms = () => {
               <div>
                 <h3 className="font-bold">2. Services</h3>
                 <p>
-                  Veritas Accounting & Tax Consultants provides professional
-                  accounting, bookkeeping, payroll, tax, and advisory
-                  services.All services are subject to a written agreement or
-                  engagement letter that outlines the specific scope, fees, and
-                  timelines for your engagement.
+                  New Bestway Inc provides professional accounting, bookkeeping,
+                  payroll, tax, and advisory services. All services are subject
+                  to a written agreement or engagement letter that outlines the
+                  specific scope, fees, and timelines for your engagement.
                 </p>
               </div>
 
@@ -72,9 +70,9 @@ const Terms = () => {
                 <h3 className="font-bold">3. Client Responsibilities</h3>
                 <p>
                   Clients are responsible for providing accurate, complete, and
-                  timely information necessary for us to perform our services.We
-                  are not liable for errors or delays resulting from incomplete,
-                  inaccurate, or late submissions.
+                  timely information necessary for us to perform our services.
+                  We are not liable for errors or delays resulting from
+                  incomplete, inaccurate, or late submissions.
                 </p>
               </div>
 
@@ -95,7 +93,9 @@ const Terms = () => {
                 <h3 className="font-bold">5. Confidentiality</h3>
                 <p>
                   We respect your privacy and maintain strict confidentiality of
-                  all client information.
+                  all client information in accordance with applicable U.S.
+                  federal and state laws, including the Gramm-Leach-Bliley Act
+                  (GLBA).
                 </p>
                 <div>
                   Your data will not be shared with third parties except as
@@ -112,9 +112,9 @@ const Terms = () => {
                 <h3 className="font-bold">6. Limitation of Liability</h3>
                 <p>
                   While we take every effort to ensure accuracy and quality in
-                  our work, Veritas Accounting & Tax Consultants is not liable
-                  for any indirect, incidental, or consequential losses arising
-                  from the use of our services or website.
+                  our work, New Bestway Inc is not liable for any indirect,
+                  incidental, or consequential losses arising from the use of
+                  our services or website.
                 </p>
                 <p>
                   Our total liability shall not exceed the fees paid for the
@@ -125,14 +125,14 @@ const Terms = () => {
               <div>
                 <h3 className="font-bold">7. Use of Website</h3>
                 <p>
-                  While we take every effort to ensure accuracy and quality in
-                  our work, Veritas Accounting & Tax Consultants is not liable
-                  for any indirect, incidental, or consequential losses arising
-                  from the use of our services or website.
+                  You agree to use our website only for lawful purposes and in a
+                  manner that does not infringe the rights of others. Unauthorized
+                  use, reproduction, or distribution of any content on this
+                  website is strictly prohibited.
                 </p>
                 <p>
-                  Our total liability shall not exceed the fees paid for the
-                  specific services in question.
+                  New Bestway Inc reserves the right to modify or discontinue
+                  any aspect of the website at any time without notice.
                 </p>
               </div>
 
@@ -158,10 +158,14 @@ const Terms = () => {
                 <h3 className="font-bold">10. Governing Law</h3>
                 <p>
                   These Terms are governed by and construed in accordance with
-                  the laws of the Province of Ontario and the laws of Canada
-                  applicable therein.
+                  the laws of the United States and the state in which New
+                  Bestway Inc is registered, without regard to its conflict of
+                  law provisions.
                 </p>
-                <p>Any disputes will be resolved in the courts of Ontario.</p>
+                <p>
+                  Any disputes will be resolved in the appropriate federal or
+                  state courts of competent jurisdiction.
+                </p>
               </div>
 
               <div>

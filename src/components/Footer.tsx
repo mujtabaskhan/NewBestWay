@@ -15,7 +15,7 @@ const Footer = ({ className }: { className?: string }) => {
       }}
     >
       <Image
-        src="/footer-bg.webp"
+        src="/NYC.webp"
         alt="footer-bg"
         width={1440}
         height={100}
@@ -28,7 +28,7 @@ const Footer = ({ className }: { className?: string }) => {
         <span>Top</span>
         <ChevronLeft className="w-4 h-4 rotate-90" />
       </Link> */}
-      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#232061] via-[#232061]/90 to-transparent flex items-end justify-start z-10 pb-20 max-sm:pb-26 max-lg:pb-20 h-[500px] max-sm:h-[600px]">
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#027C99] via-[#027C99]/90 to-transparent flex items-end justify-start z-10 pb-20 max-sm:pb-26 max-lg:pb-20 h-[500px] max-sm:h-[600px]">
         <div
           className="grid max-w-7xl mx-auto max-sm:!grid-cols-1 max-lg:flex max-lg:flex-col"
           style={{ gridTemplateColumns: "2fr 2.5fr" }}
@@ -44,10 +44,8 @@ const Footer = ({ className }: { className?: string }) => {
               height={200}
               className="h-max w-[300px]"
             />
-            <p className="font-roboto text-white text-xs max-w-[350px] max-sm:text-center">
-              We provide bookkeeping, corporate and personal tax filing, payroll
-              management, financial reporting, business advisory, and virtual
-              CFO services.
+            <p className="font-roboto text-white text-s max-w-[350px] max-sm:text-center">
+              We provide company formations, not for profits, sole proprietorship, DBAs, tax ID numbers, S. corporation election, amendments & changes, minutes & resolutions, registered agent, corporate file, dissolutions, and reinstatements.
             </p>
           </Link>
 
@@ -66,43 +64,44 @@ const Footer = ({ className }: { className?: string }) => {
                 <Link href="/expertise" className="underline">
                   Expertise
                 </Link>
-                <Link href="/careers" className="underline">
-                  We’re Hiring
-                </Link>
                 <Link href="/faq" className="underline">
                   FAQ
+                </Link>
+                <Link href="/contact" className="underline">
+                  Contact Us
                 </Link>
               </div>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <h3 className="text-white text-[20px] max-sm:text-xs font-bold">
-                Services
-              </h3>
-              <div className="font-flex text-white text-[15px] flex flex-col gap-3 max-sm:text-[10px] max-sm:gap-2">
-                <Link href="/services#accounting" className="underline">
-                  Accounting
-                </Link>
-                <Link href="/services#tax" className="underline">
-                  Tax Services
-                </Link>
-                <Link href="/services#payroll" className="underline">
-                  Payroll Services
-                </Link>
-                <Link href="/services#compliance" className="underline">
-                  Audit & Compliance Support
-                </Link>
-                <Link href="/services#cfo-services" className="underline">
-                  CFO Services
-                </Link>
-                <Link href="/services#advisory" className="underline">
-                  Business Advisory
-                </Link>
-                <Link href="/services#administration" className="underline">
-                  Business Administration
-                </Link>
-              </div>
-            </div>
+           <div className="flex flex-col gap-2">
+  <h3 className="text-white text-[20px] max-sm:text-xs font-bold">
+    Services
+  </h3>
+  <div className="font-flex text-white text-[15px] flex flex-col gap-3 max-sm:text-[10px] max-sm:gap-2">
+    <Link href="/services#company-formations" className="underline">
+      Company Formations
+    </Link>
+    <Link href="/services#not-for-profits" className="underline">
+      Not For Profits
+    </Link>
+    <Link href="/services#sole-proprietorship" className="underline">
+      Sole Proprietorship
+    </Link>
+    <Link href="/services#dbas" className="underline">
+      DBAs
+    </Link>
+    <Link href="/services#tax-id-numbers" className="underline">
+      Tax ID Numbers
+    </Link>
+    <Link href="/services#s-corporation-election" className="underline">
+      S. Corporation Election
+    </Link>
+    <Link href="/expertise" className="underline">
+      See All Services
+    </Link>
+    
+  </div>
+</div>
 
             <div className="flex flex-col gap-2">
               <h3 className="text-white text-[20px] font-bold max-sm:text-xs">
@@ -130,7 +129,7 @@ const Footer = ({ className }: { className?: string }) => {
         >
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between w-full text-white text-xs font-flex max-sm:flex-col max-sm:text-[10px] max-sm:gap-4">
-              <p>© 2025 Veritas Accounting & Tax Consultants</p>
+              <p>© 2026 New Bestway Inc. All Rights Reserved</p>
               <div className="flex gap-16">
                 <Link
                   href="/privacy-policy"

@@ -1,19 +1,25 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 function ServicesSection() {
   const servicesRow1 = [
-    { name: "Accounting", href: "/services#accounting" },
-    { name: "Tax", href: "/services#tax" },
-    { name: "Payroll", href: "/services#payroll" },
-    { name: "Compliance", href: "/services#compliance" },
+    { name: "Company Formations", href: "/services#company-formations" },
+    { name: "Not For Profits", href: "/services#not-for-profits" },
+    { name: "Sole Proprietorship", href: "/services#sole-proprietorship" },
+    { name: "DBAs", href: "/services#dbas" },
+    { name: "Tax ID Numbers", href: "/services#tax-id-numbers" },
+    { name: "S. Corporation Election", href: "/services#s-corporation-election" },
+    { name: "Amendments / Changes", href: "/services#amendments-changes" },
+    { name: "Minutes / Resolutions", href: "/services#minutes-resolutions" },
+    { name: "Registered Agent", href: "/services#registered-agent" },
+    { name: "Corporate File", href: "/services#corporate-file" },
+    { name: "Dissolutions", href: "/services#dissolutions" },
+    { name: "Reinstatements", href: "/services#reinstatements" },
   ];
-  const servicesRow2 = [
-    { name: "Advisory", href: "/services#advisory" },
-    { name: "CFO Services", href: "/services#cfo-services" },
-    { name: "See All", href: "/expertise" },
-  ];
+  // const servicesRow2 = [
+
+  // ];
 
   return (
     <section
@@ -23,25 +29,25 @@ function ServicesSection() {
       <div className="max-w-7xl mx-auto relative">
         <div className="relative max-w-3xl mx-auto mb-12 max-sm:mb-10">
           <p className="text-center text-2xl font-roboto leading-relaxed font-normal text-[#232061]">
-            Helping businesses grow with integrity, clarity, precision,{" "}
-            <br className="max-sm:hidden" /> and proactive financial guidance.
+            We help businesses grow with transparency, accountability, and accuracy.
+            Through forward-thinking financial guidance, we support confident and informed decision-making.
           </p>
         </div>
 
-        <Image
+        {/* <Image
           src="/Veritias.png"
           alt="Veritas-Logo"
           width={1000}
           height={1000}
           className="absolute top-0 right-20 z-1 h-[145px] w-[145px] rotate-45 max-sm:right-0 max-sm:-top-32"
-        />
+        /> */}
 
         <div className="flex flex-wrap justify-center gap-4 mb-4">
           {servicesRow1.map((service) => (
             <Link
               key={service.name}
               href={service.href}
-              className="px-8 py-3 rounded-full text-[20px] max-sm:text-[15px] max-sm:px-6 max-sm:py-2 font-semibold bg-[#B8DDE5] text-[#232061] hover:bg-[#D0E3EA] transition-all duration-300 cursor-pointer group flex items-center hover:gap-2 gap-0"
+              className="px-8 py-3 rounded-full text-[20px] max-sm:text-[15px] max-sm:px-6 max-sm:py-2 font-semibold bg-[#027C99] text-[#fcfcfc] hover:bg-[#D0E3EA] transition-all duration-300 cursor-pointer group flex items-center hover:gap-2 gap-0"
             >
               {service.name}
 
@@ -62,7 +68,7 @@ function ServicesSection() {
           ))}
         </div>
 
-        <div className="flex flex-wrap justify-center gap-4">
+        {/* <div className="flex flex-wrap justify-center gap-4">
           {servicesRow2.map((service) => (
             <Link
               href={service.href}
@@ -150,7 +156,7 @@ function ServicesSection() {
             </Link>
           ))}
 
-          {/* <a
+          <a
             href="https://wa.me/19052260033"
             target="_blank"
             rel="noopener noreferrer"
@@ -168,8 +174,8 @@ function ServicesSection() {
                 fill="#25D366"
               />
             </svg>
-          </a> */}
-        </div>
+          </a>
+        </div> */}
       </div>
     </section>
   );
