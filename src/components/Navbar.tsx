@@ -342,7 +342,7 @@ const Navbar = () => {
               >
                 <div className="relative w-[300px] h-[80px] max-md:w-[270px] max-md:h-[72px] max-lg:w-[250px] max-lg:h-[67px]">
                   <Image
-                    src={isExpertiseOpen ? "/2.png" : "/2.png"}
+                    src={isExpertiseOpen ? "/bestway.png" : "/bestway.png"}
                     alt="logo"
                     width={1000}
                     height={1000}

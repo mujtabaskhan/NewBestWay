@@ -68,7 +68,7 @@ const FAQ = () => {
     {
       question: "Are my records kept confidential?",
       answer:
-        "Confidentiality and privacy are fundamental to our practice. We follow strict internal controls, encrypted storage protocols, and professional ethical standards to ensure your financial records remain secure at all times.",
+        "Confidentiality and privacy are fundamental to We follow strict internal controls, encrypted storage protocols, and professional ethical standards to ensure your financial records remain secure at all times.",
     },
     {
       question: "How can I contact your team?",
@@ -92,7 +92,6 @@ const FAQ = () => {
         <style>{`
           @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Outfit:wght@300;400;500;600&display=swap');
 
-          /* ── floating orb background ── */
           .faq-bg {
             position: relative;
             background: #fff;
@@ -128,7 +127,23 @@ const FAQ = () => {
             50% { transform: translateY(-30px) scale(1.05); }
           }
 
-          /* ── FAQ item ── */
+          /* ── FAQ item: nuke ALL borders from any source ── */
+          .faq-item,
+          .faq-item *,
+          .faq-item::before,
+          .faq-item::after {
+            border: none !important;
+            outline: none !important;
+            box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+          }
+
+          .faq-item::before,
+          .faq-item::after {
+            content: none !important;
+            display: none !important;
+          }
+
           .faq-item {
             position: relative;
             border-radius: 20px;
@@ -138,30 +153,10 @@ const FAQ = () => {
             overflow: hidden;
           }
 
-          .faq-item::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            border-radius: 20px;
-            border: 1.5px solid transparent;
-            background: linear-gradient(135deg, rgba(2,124,153,0.18), rgba(2,124,153,0.05)) border-box;
-            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: destination-out;
-            mask-composite: exclude;
-            opacity: 0;
-            transition: opacity 0.35s ease;
-            pointer-events: none;
-          }
-
-          .faq-item:hover::before,
-          .faq-item.is-open::before {
-            opacity: 1;
-          }
-
           .faq-item:hover,
           .faq-item.is-open {
             background: linear-gradient(135deg, rgba(2,124,153,0.07) 0%, rgba(2,124,153,0.02) 100%);
-            box-shadow: 0 8px 40px rgba(2,124,153,0.1), 0 2px 8px rgba(2,124,153,0.05);
+            box-shadow: 0 8px 40px rgba(2,124,153,0.1), 0 2px 8px rgba(2,124,153,0.05) !important;
             transform: translateY(-2px);
           }
 
@@ -173,7 +168,6 @@ const FAQ = () => {
             .faq-item-inner { padding: 20px 20px; }
           }
 
-          /* header row */
           .faq-header {
             display: flex;
             align-items: center;
@@ -181,13 +175,13 @@ const FAQ = () => {
             user-select: none;
           }
 
-          /* animated pill number */
           .faq-pill {
             flex-shrink: 0;
             width: 44px;
             height: 44px;
             border-radius: 50%;
             background: #e6f5f8;
+            border: none !important;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -220,22 +214,22 @@ const FAQ = () => {
             .faq-pill { width: 34px; height: 34px; font-size: 13px; }
           }
 
-          /* animated toggle icon */
           .faq-toggle {
             flex-shrink: 0;
             width: 36px;
             height: 36px;
             border-radius: 50%;
-            border: 1.5px solid rgba(2,124,153,0.3);
+            border: none !important;
+            outline: none !important;
+            background: transparent;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: border-color 0.3s, background 0.3s;
+            transition: background 0.3s;
             position: relative;
           }
 
           .faq-item.is-open .faq-toggle {
-            border-color: #027C99;
             background: #027C99;
           }
 
@@ -246,44 +240,21 @@ const FAQ = () => {
             transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s, background 0.3s;
           }
 
-          .faq-toggle-bar.h {
-            width: 14px;
-            height: 1.8px;
-          }
+          .faq-toggle-bar.h { width: 14px; height: 1.8px; }
+          .faq-toggle-bar.v { width: 1.8px; height: 14px; transform: scaleY(1); }
 
-          .faq-toggle-bar.v {
-            width: 1.8px;
-            height: 14px;
-            transform: scaleY(1);
-          }
+          .faq-item.is-open .faq-toggle-bar { background: #fff; }
+          .faq-item.is-open .faq-toggle-bar.v { transform: scaleY(0); opacity: 0; }
+          .faq-item.is-open .faq-toggle-bar.h { transform: rotate(180deg); }
 
-          .faq-item.is-open .faq-toggle-bar {
-            background: #fff;
-          }
-
-          .faq-item.is-open .faq-toggle-bar.v {
-            transform: scaleY(0);
-            opacity: 0;
-          }
-
-          .faq-item.is-open .faq-toggle-bar.h {
-            transform: rotate(180deg);
-          }
-
-          /* answer slide */
           .faq-answer-wrap {
             display: grid;
             grid-template-rows: 0fr;
             transition: grid-template-rows 0.42s cubic-bezier(0.4,0,0.2,1);
           }
 
-          .faq-answer-wrap.open {
-            grid-template-rows: 1fr;
-          }
-
-          .faq-answer-inner {
-            overflow: hidden;
-          }
+          .faq-answer-wrap.open { grid-template-rows: 1fr; }
+          .faq-answer-inner { overflow: hidden; }
 
           .faq-answer-text {
             font-family: 'Outfit', sans-serif;
@@ -306,29 +277,17 @@ const FAQ = () => {
             transform: translateY(0);
           }
 
-          /* subtle separator line */
-          .faq-sep {
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(2,124,153,0.12) 30%, rgba(2,124,153,0.12) 70%, transparent);
-            margin: 0 36px;
-          }
-
-          /* staggered entrance */
           @keyframes fadeSlideUp {
             from { opacity: 0; transform: translateY(24px); }
             to   { opacity: 1; transform: translateY(0); }
           }
 
-          .faq-entry {
-            animation: fadeSlideUp 0.55s ease both;
-          }
+          .faq-entry { animation: fadeSlideUp 0.55s ease both; }
 
-          /* left accent bar for open */
-          .faq-item.is-open .faq-item-inner {
-            position: relative;
-          }
+          .faq-item.is-open .faq-item-inner { position: relative; }
           .faq-item.is-open .faq-item-inner::before {
-            content: '';
+            content: '' !important;
+            display: block !important;
             position: absolute;
             left: 0;
             top: 20px;
@@ -337,6 +296,8 @@ const FAQ = () => {
             border-radius: 4px;
             background: linear-gradient(180deg, #027C99, #54bdd1);
             animation: growBar 0.35s ease both;
+            border: none !important;
+            box-shadow: none !important;
           }
 
           @keyframes growBar {
@@ -348,7 +309,6 @@ const FAQ = () => {
         <section className="faq-bg w-full pb-[80px]">
           <div className="relative z-[10] max-lg:z-[1] max-w-7xl mx-auto px-14 max-sm:px-4 pt-52 max-lg:!pt-0 max-sm:mt-0 max-sm:!pt-3">
 
-            {/* Breadcrumb — untouched */}
             <div className="mb-12">
               <nav className="text-[#232061] text-xs font-flex max-sm:text-xs">
                 <Link href="/" className="font-normal">Home</Link>{" "}
@@ -357,7 +317,6 @@ const FAQ = () => {
               </nav>
             </div>
 
-            {/* Hero — untouched */}
             <div className="mb-[129px] max-sm:mb-[65px]">
               <AnimateOnScroll delay={0}>
                 <h1 className="text-[#232061] font-semibold mb-9 text-[60px] max-sm:text-[30px] max-lg:text-[40px]">
@@ -373,7 +332,6 @@ const FAQ = () => {
               </p>
             </div>
 
-            {/* ── FAQ LIST ── */}
             <div className="flex flex-col" style={{ gap: "10px" }}>
               {faqItems.map((item, index) => {
                 const isOpen = openIndex === index;
@@ -385,21 +343,17 @@ const FAQ = () => {
                     onClick={() => toggleFAQ(index)}
                   >
                     <div className="faq-item-inner">
-                      {/* Question row */}
                       <div className="faq-header">
                         <div className="faq-pill">
                           {String(index + 1).padStart(2, "0")}
                         </div>
-
                         <p className="faq-question-text">{item.question}</p>
-
                         <div className="faq-toggle">
                           <span className="faq-toggle-bar h" />
                           <span className="faq-toggle-bar v" />
                         </div>
                       </div>
 
-                      {/* Answer */}
                       <div className={`faq-answer-wrap ${isOpen ? "open" : ""}`}>
                         <div className="faq-answer-inner">
                           <p className="faq-answer-text">{item.answer}</p>
@@ -410,7 +364,6 @@ const FAQ = () => {
                 );
               })}
             </div>
-            {/* ── END FAQ LIST ── */}
 
           </div>
         </section>

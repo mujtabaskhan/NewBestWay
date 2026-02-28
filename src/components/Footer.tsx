@@ -38,7 +38,7 @@ const Footer = ({ className }: { className?: string }) => {
             className="flex flex-col gap-10 mr-20 max-sm:mr-0 max-sm:items-center max-sm:justify-center px-4"
           >
             <Image
-              src="/logo-white.png"
+              src="/bestway.png"
               alt="logo"
               width={200}
               height={200}

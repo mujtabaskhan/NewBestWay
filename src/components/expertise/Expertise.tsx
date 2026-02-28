@@ -53,7 +53,7 @@ export default function ExpertiseSection() {
   return (
     <section className="relative w-full py-24 bg-white overflow-hidden z-10">
       {/* Decorative Wing Top Left */}
-      <div className="absolute top-12 left-12 lg:left-24 opacity-30 pointer-events-none">
+      {/* <div className="absolute top-12 left-12 lg:left-24 opacity-30 pointer-events-none">
         <Image
           src="/Veritias.png"
           alt="Decorative wing logo"
@@ -61,7 +61,7 @@ export default function ExpertiseSection() {
           height={120}
           className="grayscale brightness-110"
         />
-      </div>
+      </div> */}
 
       <div className="container mx-auto max-w-7xl px-6 relative z-10">
         {/* Header Section */}
@@ -167,7 +167,7 @@ export default function ExpertiseSection() {
       </div>
 
       {/* Decorative Wing Bottom Right */}
-      <div className="absolute -bottom-12 -right-12 opacity-15 pointer-events-none hidden md:block">
+      {/* <div className="absolute -bottom-12 -right-12 opacity-15 pointer-events-none hidden md:block">
         <Image
           src="/Veritias.png"
           alt="Large decorative wing"
@@ -175,7 +175,7 @@ export default function ExpertiseSection() {
           height={350}
           className="grayscale"
         />
-      </div>
+      </div> */}
 
       <style jsx global>{`
         .italic-spectrum {
