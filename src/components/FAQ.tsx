@@ -41,13 +41,13 @@ export default function FAQ() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-[74px] max-sm:mb-[59px]">
           <AnimateOnScroll delay={0}>
-            <h2 className="block max-sm:hidden text-[#027C99] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[80px]">
+            <h2 className="block max-sm:hidden text-[#418874] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[80px]">
              Have questions about our accounting services?
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={0}>
-            <h2 className="hidden max-sm:block text-[#027C99] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[25px]">
+            <h2 className="hidden max-sm:block text-[#418874] font-semibold mb-2 text-[40px] max-md:text-[30px] max-sm:text-[25px] leading-[25px]">
               FAQ
             </h2>
           </AnimateOnScroll>
@@ -63,12 +63,12 @@ export default function FAQ() {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-8 py-3 rounded-[50px] border relative flex items-center justify-start"
                 style={{
-                  borderColor: openIndex === index ? "#232061" : "#232061",
+                  borderColor: openIndex === index ? "#418874" : "#418874",
                   backgroundColor:
                     openIndex === index ? "transparent" : "transparent",
                 }}
               >
-                <span className="text-left text-[22px] text-[#232061] font-roboto max-sm:text-xs">
+                <span className="text-left text-[22px] text-[#000000] font-roboto max-sm:text-xs">
                   {item.question}
                 </span>
                 <svg
@@ -91,7 +91,7 @@ export default function FAQ() {
 
               {openIndex === index && (
                 <div className="px-12 py-6 mt-3 max-sm:px-8 max-sm:py-2">
-                  <p className="text-xl text-[#232061] font-roboto max-sm:text-xs">
+                  <p className="text-xl text-[#000000] font-roboto max-sm:text-xs">
                     {item.answer}
                   </p>
                 </div>
@@ -103,7 +103,7 @@ export default function FAQ() {
         <div className="flex justify-end mt-[74px] max-sm:mt-[38px] pb-[100px] max-sm:pb-[86px]">
           <Link
             href={"/faq"}
-            className="px-5 py-1 rounded-full text-[25px] max-sm:text-[15px] max-sm:px-3 leading-[10px] font-semibold inline-flex items-center gap-2 bg-[#027C99] text-white"
+            className="px-5 py-1 rounded-full text-[25px] max-sm:text-[15px] max-sm:px-3 leading-[10px] font-semibold inline-flex items-center gap-2 bg-[#418874] text-white"
           >
             Learn More
             <svg

@@ -46,7 +46,7 @@ function Hero() {
         />
 
         {/* Dark overlay */}
-        <div className="absolute inset-0 z-[1] bg-black/30" />
+        <div className="absolute inset-0 z-[1] bg-black/50" />
 
         <div className="relative z-10 flex items-center h-full px-8 max-sm:px-10 max-w-7xl mx-auto pt-52 max-sm:pt-64 max-xs:-mt-[20px]">
           <div className="w-full text-[#ffffff] font-semibold">
@@ -103,7 +103,7 @@ function Hero() {
                   }}
                   className="group px-10 py-4 rounded-full font-semibold text-white transition-all inline-flex items-center gap-3 hover:opacity-90 text-base leading-[10px] max-sm:text-[15px] max-sm:py-3 max-sm:px-6 max-sm:leading-[20px] cursor-pointer"
                   style={{
-                    backgroundColor: "#027C99",
+                    backgroundColor: "#418874",
                   }}
                 >
                   <span className="relative inline-block overflow-hidden">

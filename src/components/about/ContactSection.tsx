@@ -172,7 +172,7 @@ export default function ContactSection({
         {hideHeading && (
           <div className="text-center mb-[185px] max-sm:!mb-[81px]">
             <AnimateOnScroll delay={0}>
-              <h2 className="text-[70px] font-normal text-[#232061] leading-[70px] max-xl:text-[60px] max-xl:leading-[64px] max-lg:text-[52px] max-lg:leading-[56px] max-md:text-[44px] max-md:leading-[48px] max-sm:text-[36px] max-sm:!text-xl max-sm:!leading-[20px] max-sm:!text-center">
+              <h2 className="text-[70px] font-normal text-[#418874] leading-[70px] max-xl:text-[60px] max-xl:leading-[64px] max-lg:text-[52px] max-lg:leading-[56px] max-md:text-[44px] max-md:leading-[48px] max-sm:text-[36px] max-sm:!text-xl max-sm:!leading-[20px] max-sm:!text-center">
                 Curious about what we <br />
                 can do for you?
               </h2>
@@ -182,11 +182,11 @@ export default function ContactSection({
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-lg:gap-10 max-sm:!gap-[96px]">
           <div>
             <div className="pb-[24px]">
-              <h3 className="text-[32px] font-semibold text-[#232061] max-sm:text-2xl mb-2">
+              <h3 className="text-[32px] font-semibold text-[#418874] max-sm:text-2xl mb-2">
                 Let&apos;s Connect!
               </h3>
               <p
-                className="text-2xl text-[#232061] max-sm:!text-xl"
+                className="text-2xl text-[#418874] max-sm:!text-xl"
                 style={{
                   fontWeight: 300,
                   fontFamily: '"Roboto", sans-serif',
@@ -217,12 +217,12 @@ export default function ContactSection({
               <div className="relative mb-[24px]">
                 <div className="relative" ref={dropdownRef}>
                   <div
-                    className="border-1 border-[#232061] rounded-full py-4 px-8 cursor-pointer hover:border-opacity-80 transition-colors max-sm:px-6"
+                    className="border-1 border-[#418874] rounded-full py-4 px-8 cursor-pointer hover:border-opacity-80 transition-colors max-sm:px-6"
                     onClick={() => setIsOpen(!isOpen)}
                   >
                     <div className="flex items-center justify-between">
                       <span
-                        className={`font-roboto font-semibold text-base text-[#232061] max-sm:!text-sm ${
+                        className={`font-roboto font-semibold text-base text-[#418874] max-sm:!text-sm ${
                           selectedService ? "" : "text-opacity-40"
                         }`}
                       >
@@ -237,27 +237,27 @@ export default function ContactSection({
                         viewBox="0 0 18 18"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className={`w-4 h-4 text-[#232061] transition-transform duration-200 ${
+                        className={`w-4 h-4 text-[#418874] transition-transform duration-200 ${
                           isOpen ? "rotate-180" : ""
                         }`}
                       >
                         <path
                           d="M15.8215 4.5L17.1587 5.83853L9.87064 13.1292C9.75386 13.2467 9.61499 13.3399 9.46202 13.4036C9.30906 13.4672 9.14501 13.5 8.97934 13.5C8.81366 13.5 8.64962 13.4672 8.49665 13.4036C8.34369 13.3399 8.20482 13.2467 8.08804 13.1292L0.796143 5.83853L2.13341 4.50126L8.97744 11.344L15.8215 4.5Z"
-                          fill="#232061"
+                          fill="#418874"
                         />
                       </svg>
                     </div>
                   </div>
 
                   {isOpen && (
-                    <div className="absolute top-full left-0 right-0 mt-2 bg-white border-2 border-[#232061] rounded-2xl shadow-lg z-50 max-h-60 overflow-y-auto">
+                    <div className="absolute top-full left-0 right-0 mt-2 bg-white border-2 border-[#418874] rounded-2xl shadow-lg z-50 max-h-60 overflow-y-auto">
                       {services.map((service) => (
                         <div
                           key={service.value}
                           className="px-4 py-3 hover:bg-gray-50 cursor-pointer first:rounded-t-2xl last:rounded-b-2xl transition-colors"
                           onClick={() => handleServiceSelect(service)}
                         >
-                          <span className="text-xl text-[#232061] max-sm:text-base">
+                          <span className="text-xl text-[#418874] max-sm:text-base">
                             {service.label}
                           </span>
                         </div>
@@ -268,7 +268,7 @@ export default function ContactSection({
               </div>
 
               <div className="mb-[24px]">
-                <label className="block text-base text-[#232061] font-roboto font-semibold mb-2">
+                <label className="block text-base text-[#418874] font-roboto font-semibold mb-2">
                   Name
                 </label>
                 <input
@@ -278,12 +278,12 @@ export default function ContactSection({
                   onChange={handleInputChange}
                   placeholder="Your Full Name here"
                   required
-                  className="w-full border-1 border-[#232061] rounded-full px-8 py-4 text-base text-[#232061] placeholder-[rgba(35,32,97,0.4)] outline-none bg-white max-sm:px-6 max-sm:py-3 max-sm:!text-sm"
+                  className="w-full border-1 border-[#418874] rounded-full px-8 py-4 text-base text-[#418874] placeholder-[rgba(35,32,97,0.4)] outline-none bg-white max-sm:px-6 max-sm:py-3 max-sm:!text-sm"
                 />
               </div>
 
               <div className="mb-[24px]">
-                <label className="block text-base text-[#232061] font-roboto font-semibold mb-2">
+                <label className="block text-base text-[#418874] font-roboto font-semibold mb-2">
                   Email
                 </label>
                 <input
@@ -293,12 +293,12 @@ export default function ContactSection({
                   onChange={handleInputChange}
                   placeholder="Your Email address here"
                   required
-                  className="w-full border-1 border-[#232061] rounded-full px-8 py-4 text-base text-[#232061] placeholder-[rgba(35,32,97,0.4)] outline-none bg-white max-sm:px-6 max-sm:py-3 max-sm:!text-sm"
+                  className="w-full border-1 border-[#418874] rounded-full px-8 py-4 text-base text-[#418874] placeholder-[rgba(35,32,97,0.4)] outline-none bg-white max-sm:px-6 max-sm:py-3 max-sm:!text-sm"
                 />
               </div>
 
               <div className="mb-[24px]">
-                <label className="block text-base text-[#232061] font-roboto font-semibold mb-2">
+                <label className="block text-base text-[#418874] font-roboto font-semibold mb-2">
                   Phone
                 </label>
                 <input
@@ -307,12 +307,12 @@ export default function ContactSection({
                   value={formData.phone}
                   onChange={handleInputChange}
                   placeholder="Your Phone number here"
-                  className="w-full border-1 border-[#232061] rounded-full px-8 py-4 text-base text-[#232061] placeholder-[rgba(35,32,97,0.4)] outline-none bg-white max-sm:px-6 max-sm:py-3 max-sm:!text-sm"
+                  className="w-full border-1 border-[#418874] rounded-full px-8 py-4 text-base text-[#418874] placeholder-[rgba(35,32,97,0.4)] outline-none bg-white max-sm:px-6 max-sm:py-3 max-sm:!text-sm"
                 />
               </div>
 
               <div>
-                <label className="block text-base text-[#232061] font-roboto font-semibold mb-2">
+                <label className="block text-base text-[#418874] font-roboto font-semibold mb-2">
                   Message
                 </label>
                 <textarea
@@ -322,7 +322,7 @@ export default function ContactSection({
                   placeholder="Your brief message here"
                   rows={6}
                   required
-                  className="w-full border-1 border-[#232061] rounded-3xl px-8 py-6 text-base text-[#232061] placeholder-[rgba(35,32,97,0.4)] outline-none resize-none bg-white max-sm:px-6 max-sm:py-4 max-sm:!text-sm"
+                  className="w-full border-1 border-[#418874] rounded-3xl px-8 py-6 text-base text-[#418874] placeholder-[rgba(35,32,97,0.4)] outline-none resize-none bg-white max-sm:px-6 max-sm:py-4 max-sm:!text-sm"
                 />
               </div>
 
@@ -332,7 +332,7 @@ export default function ContactSection({
                   disabled={isSubmitting}
                   className="group px-10 py-4 rounded-full font-semibold text-white transition-all inline-flex items-center gap-3 hover:opacity-90 text-xl leading-[10px] max-sm:text-[15px] max-sm:py-3 max-sm:px-6 max-sm:leading-[20px] cursor-pointer"
                   style={{
-                    backgroundColor: "#232061",
+                    backgroundColor: "#418874",
                   }}
                 >
                   <span className="relative inline-block overflow-hidden">
@@ -384,25 +384,25 @@ export default function ContactSection({
 
           <div className="space-y-8 contact-card flex items-center justify-center">
             <div className="rounded-3xl py-[73.5px] px-12 max-sm:p-8 h-full flex justify-center flex-col">
-              <h3 className="text-[56px] leading-[48px] text-[#232061] mb-2 max-sm:text-[40px] font-extralight">
+              <h3 className="text-[56px] leading-[48px] text-[#418874] mb-2 max-sm:text-[40px] font-extralight">
                 What Happens Next?
               </h3>
-              <p className="text-2xl text-[#232061] mb-16 font-semibold font-roboto max-sm:text-xl max-sm:mb-12">
+              <p className="text-2xl text-[#418874] mb-16 font-semibold font-roboto max-sm:text-xl max-sm:mb-12">
                 3 easy steps
               </p>
 
               <div className="space-y-16 relative max-sm:space-y-12">
                 <div className="flex items-start space-x-4 max-sm:!space-x-6 max-sm:!mb-10">
                   <div className="flex gap-6">
-                    <h3 className="font-roboto text-xl text-[#232061] font-light shrink-0 max-sm:text-base">
+                    <h3 className="font-roboto text-xl text-[#418874] font-light shrink-0 max-sm:text-base">
                       Step 1
                     </h3>
                     <div className="font-roboto flex flex-col gap-2">
                       {" "}
-                      <h4 className="text-xl text-[#232061] font-semibold max-sm:text-base">
+                      <h4 className="text-xl text-[#418874] font-semibold max-sm:text-base">
                         Review & Response
                       </h4>
-                      <p className="text-lg text-[#232061] leading-[26px] !font-roboto !font-light max-sm:text-sm max-sm:leading-5">
+                      <p className="text-lg text-[#418874] leading-[26px] !font-roboto !font-light max-sm:text-sm max-sm:leading-5">
                         We will review your form and contact you within 1–2
                         business days to confirm your details.
                       </p>
@@ -412,15 +412,15 @@ export default function ContactSection({
 
                 <div className="flex items-start space-x-4 max-sm:!space-x-6 max-sm:!mb-10">
                   <div className="flex gap-6">
-                    <h3 className="font-roboto text-xl text-[#232061] font-light shrink-0 max-sm:text-base">
+                    <h3 className="font-roboto text-xl text-[#418874] font-light shrink-0 max-sm:text-base">
                       Step 2
                     </h3>
                     <div className="font-roboto flex flex-col gap-2">
                       {" "}
-                      <h4 className="text-xl text-[#232061] font-semibold max-sm:text-base">
+                      <h4 className="text-xl text-[#418874] font-semibold max-sm:text-base">
                         Consultation
                       </h4>
-                      <p className="text-lg text-[#232061] leading-[26px] !font-roboto !font-light max-sm:text-sm max-sm:leading-5">
+                      <p className="text-lg text-[#418874] leading-[26px] !font-roboto !font-light max-sm:text-sm max-sm:leading-5">
                         We&apos;ll schedule a short call to understand your
                         needs and recommend the right accounting solutions.
                       </p>
@@ -430,15 +430,15 @@ export default function ContactSection({
 
                 <div className="flex items-start space-x-4 max-sm:!space-x-6 max-sm:!mb-10">
                   <div className="flex gap-6">
-                    <h3 className="font-roboto text-xl text-[#232061] font-light shrink-0 max-sm:text-base">
+                    <h3 className="font-roboto text-xl text-[#418874] font-light shrink-0 max-sm:text-base">
                       Step 3
                     </h3>
                     <div className="font-roboto flex flex-col gap-2">
                       {" "}
-                      <h4 className="text-xl text-[#232061] font-semibold max-sm:text-base">
+                      <h4 className="text-xl text-[#418874] font-semibold max-sm:text-base">
                         Proposal & Onboarding
                       </h4>
-                      <p className="text-lg text-[#232061] leading-[26px] !font-roboto !font-light max-sm:text-sm max-sm:leading-5">
+                      <p className="text-lg text-[#418874] leading-[26px] !font-roboto !font-light max-sm:text-sm max-sm:leading-5">
                         You&apos;ll receive a customized service proposal, and
                         once approved, we&apos;ll begin your onboarding process
                         right away.

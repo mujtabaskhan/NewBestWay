@@ -28,7 +28,7 @@ function ServicesSection() {
     >
       <div className="max-w-7xl mx-auto relative">
         <div className="relative max-w-3xl mx-auto mb-12 max-sm:mb-10">
-          <p className="text-center text-2xl font-roboto leading-relaxed font-normal text-[#232061]">
+          <p className="text-center text-2xl font-roboto leading-relaxed font-normal text-[#000000]">
             We help businesses grow with transparency, accountability, and accuracy.
             Through forward-thinking financial guidance, we support confident and informed decision-making.
           </p>
@@ -47,7 +47,7 @@ function ServicesSection() {
             <Link
               key={service.name}
               href={service.href}
-              className="px-8 py-3 rounded-full text-[20px] max-sm:text-[15px] max-sm:px-6 max-sm:py-2 font-semibold bg-[#027C99] text-[#fcfcfc] hover:bg-[#D0E3EA] transition-all duration-300 cursor-pointer group flex items-center hover:gap-2 gap-0"
+              className="px-8 py-3 rounded-full text-[20px] max-sm:text-[15px] max-sm:px-6 max-sm:py-2 font-semibold bg-[#418874] text-[#fcfcfc] hover:bg-[#D0E3EA] transition-all duration-300 cursor-pointer group flex items-center hover:gap-2 gap-0"
             >
               {service.name}
 

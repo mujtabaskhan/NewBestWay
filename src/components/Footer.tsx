@@ -28,7 +28,7 @@ const Footer = ({ className }: { className?: string }) => {
         <span>Top</span>
         <ChevronLeft className="w-4 h-4 rotate-90" />
       </Link> */}
-      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#418874] via-[#afecdb]/90 to-transparent flex items-end justify-start z-10 pb-20 max-sm:pb-26 max-lg:pb-20 h-[500px] max-sm:h-[600px]">
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#1b5847] via-[#418874]/90 to-transparent flex items-end justify-start z-10 pb-20 max-sm:pb-26 max-lg:pb-20 h-[500px] max-sm:h-[600px]">
         <div
           className="grid max-w-7xl mx-auto max-sm:!grid-cols-1 max-lg:flex max-lg:flex-col"
           style={{ gridTemplateColumns: "2fr 2.5fr" }}

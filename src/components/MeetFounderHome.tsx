@@ -70,15 +70,15 @@ export default function MeetFounderHome() {
               </AnimateOnScroll>
             </div>
 
-            <p className="text-lg text-[#232061] leading-[35px] font-flex max-sm:leading-6 max-sm:text-left">
-              When I founded NewBestway Inc., it was with a single belief: financial clarity drives business success. The name reflects our commitment to truth and transparency. We don’t just manage your accounts—we simplify finance, provide honest guidance, and empower you to focus on growing your vision. At <span className="!font-black text-[#027C99]">NewBestway Inc.</span>, integrity and excellence guide everything we do, delivering value that lasts.
+            <p className="text-lg text-[#000000] leading-[35px] font-flex max-sm:leading-6 max-sm:text-left">
+              When I founded NewBestway Inc., it was with a single belief: financial clarity drives business success. The name reflects our commitment to truth and transparency. We don’t just manage your accounts—we simplify finance, provide honest guidance, and empower you to focus on growing your vision. At <span className="!font-black text-[#418874]">NewBestway Inc.</span>, integrity and excellence guide everything we do, delivering value that lasts.
             </p>
 
             <div className="max-sm:flex max-sm:flex-col max-sm:items-start max-sm:text-left w-full">
-              <h3 className="text-[32px] text-[#027C99] leading-[50px] max-xl:text-[44px] max-xl:leading-[48px] max-lg:text-[38px] max-lg:leading-[42px] max-md:text-[32px] max-md:leading-9 max-sm:!text-[32px] max-sm:!leading-[20px] font-roboto max-sm:text-left">
+              <h3 className="text-[32px] text-[#418874] leading-[50px] max-xl:text-[44px] max-xl:leading-[48px] max-lg:text-[38px] max-lg:leading-[42px] max-md:text-[32px] max-md:leading-9 max-sm:!text-[32px] max-sm:!leading-[20px] font-roboto max-sm:text-left">
                 Salahuddin Ahmed{" "}
               </h3>
-              <p className="font-semibold text-lg text-[#027C99] italic max-sm:text-let font-serif">
+              <p className="font-semibold text-lg text-[#418874] italic max-sm:text-let font-serif">
                 CEO/Founder
               </p>
               

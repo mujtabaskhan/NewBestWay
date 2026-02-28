@@ -157,7 +157,7 @@ export default function TheDifference() {
 
         /* Paragraph — soft teal glow */
         .card-paragraph {
-          color: #232061 !important;
+          color: #000 !important;
           position: relative;
           z-index: 3;
           text-shadow:
