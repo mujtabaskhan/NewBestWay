@@ -1,12 +1,11 @@
 {
   "pages": {
     "/about/page": [
-      "static/chunks/ff1a16fafef87110.js",
-      "static/chunks/7dd66bdf8a7e5707.js",
       "static/chunks/67fe9d9ec1a9ca3f.js",
-      "static/chunks/edccc53ff83f5dcf.css",
+      "static/chunks/7dd66bdf8a7e5707.js",
+      "static/chunks/2bc59db661c45264.css",
       "static/chunks/8f6026cacbe9c4da.js",
-      "static/chunks/16fd00cac3d1c79d.js",
+      "static/chunks/c3e6d99358fe4b34.js",
       "static/chunks/c85a7d07e7b82c9a.js",
       "static/chunks/c951386faa1af47c.js",
       "static/chunks/c262c49f15ce2f1f.js",

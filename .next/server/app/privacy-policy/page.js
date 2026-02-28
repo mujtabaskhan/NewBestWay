@@ -1,8 +1,7 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/privacy-policy/page.js")
 R.c("server/chunks/ssr/[root-of-the-server]__adec8d2a._.js")
-R.c("server/chunks/ssr/node_modules_8c3db903._.js")
-R.c("server/chunks/ssr/node_modules_next_dist_7da8c22c._.js")
-R.c("server/chunks/ssr/src_app_ca777385._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_f68a4847._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_c3d10d89._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_app-dir_link_4a041308.js")
 R.c("server/chunks/ssr/[root-of-the-server]__fb75d47c._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_9774470f._.js")
@@ -10,8 +9,8 @@ R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidde
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_15817684.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_ece394eb.js")
 R.c("server/chunks/ssr/[root-of-the-server]__6204df2e._.js")
-R.c("server/chunks/ssr/_a2985d5b._.js")
-R.c("server/chunks/ssr/_6120e6c3._.js")
+R.c("server/chunks/ssr/_d0a642f7._.js")
+R.c("server/chunks/ssr/_f1b9c505._.js")
 R.m(70604)
-R.m(25622)
-module.exports=R.m(25622).exports
+R.m(76342)
+module.exports=R.m(76342).exports
