@@ -23,15 +23,20 @@ export default function ContactSection({
     message: string;
   }>({ type: null, message: "" });
 
-  const services = [
-    { value: "accounting", label: "Accounting" },
-    { value: "tax", label: "Tax Services" },
-    { value: "payroll", label: "Payroll Services" },
-    { value: "audit", label: "Audit & Compliance Support" },
-    { value: "cfo", label: "CFO Services" },
-    { value: "advisory", label: "Business Advisory" },
-    { value: "admin", label: "Business Administration" },
-  ];
+ const services = [
+  { value: "company-formations", label: "Company Formations" },
+  { value: "not-for-profits", label: "Not For Profits" },
+  { value: "sole-proprietorship", label: "Sole Proprietorship" },
+  { value: "dbas", label: "DBAs" },
+  { value: "tax-id-numbers", label: "Tax ID Numbers" },
+  { value: "s-corporation-election", label: "S. Corporation Election" },
+  { value: "amendments-changes", label: "Amendments / Changes" },
+  { value: "minutes-resolutions", label: "Minutes / Resolutions" },
+  { value: "registered-agent", label: "Registered Agent" },
+  { value: "corporate-file", label: "Corporate File" },
+  { value: "dissolutions", label: "Dissolutions" },
+  { value: "reinstatements", label: "Reinstatements" },
+];
 
   const handleServiceSelect = (service: { value: string; label: string }) => {
     setSelectedService(service.value);
