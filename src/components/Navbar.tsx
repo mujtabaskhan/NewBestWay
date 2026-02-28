@@ -298,7 +298,7 @@ const Navbar = () => {
             visibility: isExpertiseOpen ? "visible" : "hidden",
             pointerEvents: isExpertiseOpen ? "auto" : "none",
             background: isExpertiseOpen
-              ? "linear-gradient(135deg, rgba(35, 32, 97, 0.25) 0%, rgba(35, 32, 97, 0.2) 100%)"
+              ? "linear-gradient(135deg, rgba(65, 136, 116, 0.25) 0%, rgba(65, 136, 116, 0.2) 100%)"
               : "transparent",
             backdropFilter: isExpertiseOpen
               ? "blur(30px) saturate(190%)"
@@ -369,7 +369,7 @@ const Navbar = () => {
                   className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/")
                     ? isExpertiseOpen
                       ? "bg-white/20 text-white"
-                      : "bg-[#027C99] text-white"
+                      : "bg-[#418874] text-white"
                     : isExpertiseOpen
                       ? "hover:bg-white/20 hover:text-white"
                       : "hover:bg-[#B8DDE5]"
@@ -388,7 +388,7 @@ const Navbar = () => {
                     className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/expertise") || pathname.startsWith("/services")
                       ? isExpertiseOpen
                         ? "bg-white/20 text-white"
-                        : "bg-[#027C99] text-white"
+                        : "bg-[#418874] text-white"
                       : isExpertiseOpen
                         ? "hover:bg-white/20 hover:text-white"
                         : "hover:bg-[#B8DDE5]"
@@ -406,7 +406,7 @@ const Navbar = () => {
                       >
                         <path
                           d="M10.5477 4.43302L11.4392 5.32537L6.58042 10.1858C6.50257 10.2641 6.40999 10.3263 6.30801 10.3687C6.20604 10.4112 6.09668 10.433 5.98622 10.433C5.87577 10.433 5.76641 10.4112 5.66443 10.3687C5.56246 10.3263 5.46988 10.2641 5.39202 10.1858L0.530762 5.32537L1.42227 4.43386L5.98496 8.99571L10.5477 4.43302Z"
-                          fill={isExpertiseOpen ? "#FFFFFF" : "#027C99"}
+                          fill={isExpertiseOpen ? "#FFFFFF" : "#418874"}
                         />
                       </svg>
                     </span>
@@ -418,7 +418,7 @@ const Navbar = () => {
                   className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/careers")
                     ? isExpertiseOpen
                       ? "bg-white/20 text-white"
-                      : "bg-[#027C99] text-white"
+                      : "bg-[#418874] text-white"
                     : isExpertiseOpen
                       ? "hover:bg-white/20 hover:text-white"
                       : "hover:bg-[#B8DDE5]"
@@ -432,7 +432,7 @@ const Navbar = () => {
                   className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/team")
                     ? isExpertiseOpen
                       ? "bg-white/20 text-white"
-                      : "bg-[#027C99] text-white"
+                      : "bg-[#418874] text-white"
                     : isExpertiseOpen
                       ? "hover:bg-white/20 hover:text-white"
                       : "hover:bg-[#B8DDE5]"
@@ -440,20 +440,6 @@ const Navbar = () => {
                 >
                   Contact Us
                 </Link>
-
-                {/* <Link
-                  href="/faq"
-                  className={`nav-link relative group h-max px-3 py-1 hover:rounded-full flex items-center justify-center rounded-full ${isActive("/faq")
-                      ? isExpertiseOpen
-                        ? "bg-white/20 text-white"
-                        : "bg-[#027C99] text-white"
-                      : isExpertiseOpen
-                        ? "hover:bg-white/20 hover:text-white"
-                        : "hover:bg-[#B8DDE5]"
-                    }`}
-                >
-                  FAQ
-                </Link> */}
               </div>
 
               <div
@@ -779,7 +765,8 @@ const Navbar = () => {
           top: -20px;
           left: 0;
           right: 0;
-          background-color: #232061;
+          /* ✅ Changed from #232061 to #418874 */
+          background-color: #418874;
           z-index: 10;
           clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
           transition: clip-path 0.6s cubic-bezier(0.16, 1, 0.3, 1),
@@ -1065,7 +1052,7 @@ const Navbar = () => {
           overflow: visible !important;
         }
 
-        /* Enhanced backdrop blur with blue tint for Apple-like effect */
+        /* Enhanced backdrop blur with green tint for expertise overlay */
         .backdrop-overlay {
           position: fixed;
           top: 0;
@@ -1075,8 +1062,8 @@ const Navbar = () => {
           height: 100vh;
           background: linear-gradient(
             135deg,
-            rgba(35, 32, 97, 0.2) 0%,
-            rgba(35, 32, 97, 0.15) 100%
+            rgba(65, 136, 116, 0.2) 0%,
+            rgba(65, 136, 116, 0.15) 100%
           );
           backdrop-filter: blur(30px) saturate(190%);
           -webkit-backdrop-filter: blur(30px) saturate(190%);
@@ -1112,7 +1099,7 @@ const Navbar = () => {
         /* Mobile expertise dropdown scrollbar styling */
         .mobile-expertise-dropdown {
           scrollbar-width: thin;
-          scrollbar-color: rgba(35, 32, 97, 0.3) transparent;
+          scrollbar-color: rgba(65, 136, 116, 0.3) transparent;
         }
 
         .mobile-expertise-dropdown::-webkit-scrollbar {
@@ -1125,12 +1112,12 @@ const Navbar = () => {
         }
 
         .mobile-expertise-dropdown::-webkit-scrollbar-thumb {
-          background-color: rgba(35, 32, 97, 0.3);
+          background-color: rgba(65, 136, 116, 0.3);
           border-radius: 10px;
         }
 
         .mobile-expertise-dropdown::-webkit-scrollbar-thumb:hover {
-          background-color: rgba(35, 32, 97, 0.5);
+          background-color: rgba(65, 136, 116, 0.5);
         }
 
         /* Force hide logo and social links when scrolled */
