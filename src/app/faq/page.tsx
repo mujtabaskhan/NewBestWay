@@ -103,7 +103,7 @@ const FAQ = () => {
             width: 700px;
             height: 700px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(2,124,153,0.07) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(65,136,116,0.08) 0%, transparent 70%);
             top: -200px;
             right: -200px;
             pointer-events: none;
@@ -115,7 +115,7 @@ const FAQ = () => {
             width: 500px;
             height: 500px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(2,124,153,0.05) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(41,93,78,0.06) 0%, transparent 70%);
             bottom: 100px;
             left: -150px;
             pointer-events: none;
@@ -155,8 +155,8 @@ const FAQ = () => {
 
           .faq-item:hover,
           .faq-item.is-open {
-            background: linear-gradient(135deg, rgba(2,124,153,0.07) 0%, rgba(2,124,153,0.02) 100%);
-            box-shadow: 0 8px 40px rgba(2,124,153,0.1), 0 2px 8px rgba(2,124,153,0.05) !important;
+            background: linear-gradient(135deg, rgba(65,136,116,0.08) 0%, rgba(41,93,78,0.03) 100%);
+            box-shadow: 0 8px 40px rgba(41,93,78,0.12), 0 2px 8px rgba(65,136,116,0.06) !important;
             transform: translateY(-2px);
           }
 
@@ -180,7 +180,7 @@ const FAQ = () => {
             width: 44px;
             height: 44px;
             border-radius: 50%;
-            background: #e6f5f8;
+            background: rgba(65,136,116,0.12);
             border: none !important;
             display: flex;
             align-items: center;
@@ -188,13 +188,13 @@ const FAQ = () => {
             font-family: 'Cormorant Garamond', serif;
             font-size: 16px;
             font-weight: 600;
-            color: #027C99;
+            color: #418874;
             transition: background 0.35s, color 0.35s, transform 0.35s;
           }
 
           .faq-item.is-open .faq-pill,
           .faq-item:hover .faq-pill {
-            background: #027C99;
+            background: #418874;
             color: #fff;
             transform: scale(1.1) rotate(-6deg);
           }
@@ -204,9 +204,14 @@ const FAQ = () => {
             font-family: 'Outfit', sans-serif;
             font-size: 17px;
             font-weight: 500;
-            color: #027C99;
+            color: #295d4e;
             line-height: 1.45;
             transition: color 0.2s;
+          }
+
+          .faq-item:hover .faq-question-text,
+          .faq-item.is-open .faq-question-text {
+            color: #418874;
           }
 
           @media (max-width: 640px) {
@@ -230,12 +235,12 @@ const FAQ = () => {
           }
 
           .faq-item.is-open .faq-toggle {
-            background: #027C99;
+            background: #418874;
           }
 
           .faq-toggle-bar {
             position: absolute;
-            background: #027C99;
+            background: #418874;
             border-radius: 2px;
             transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s, background 0.3s;
           }
@@ -261,7 +266,7 @@ const FAQ = () => {
             font-size: 15px;
             font-weight: 300;
             line-height: 1.8;
-            color: #3a8fa0;
+            color: #295d4e;
             padding: 16px 0 6px 64px;
             opacity: 0;
             transform: translateY(8px);
@@ -294,7 +299,7 @@ const FAQ = () => {
             bottom: 20px;
             width: 3px;
             border-radius: 4px;
-            background: linear-gradient(180deg, #027C99, #54bdd1);
+            background: linear-gradient(180deg, #418874, #295d4e);
             animation: growBar 0.35s ease both;
             border: none !important;
             box-shadow: none !important;
@@ -310,7 +315,7 @@ const FAQ = () => {
           <div className="relative z-[10] max-lg:z-[1] max-w-7xl mx-auto px-14 max-sm:px-4 pt-52 max-lg:!pt-0 max-sm:mt-0 max-sm:!pt-3">
 
             <div className="mb-12">
-              <nav className="text-[#232061] text-xs font-flex max-sm:text-xs">
+              <nav className="text-[#418874] text-xs font-flex max-sm:text-xs">
                 <Link href="/" className="font-normal">Home</Link>{" "}
                 <span className="font-black mx-5">&gt;</span>
                 <span className="font-normal">FAQ</span>
@@ -319,12 +324,12 @@ const FAQ = () => {
 
             <div className="mb-[129px] max-sm:mb-[65px]">
               <AnimateOnScroll delay={0}>
-                <h1 className="text-[#232061] font-semibold mb-9 text-[60px] max-sm:text-[30px] max-lg:text-[40px]">
+                <h1 className="text-[#418874] font-semibold mb-9 text-[60px] max-sm:text-[30px] max-lg:text-[40px]">
                   Frequently Asked Questions <br className="max-sm:hidden" />{" "}
-                  <span className="font-light">by our Clients</span>
+                  <span className="font-light text-[#295d4e]">by our Clients</span>
                 </h1>
               </AnimateOnScroll>
-              <p className="text-[#232061] text-xl font-flex max-w-4xl max-sm:text-xs">
+              <p className="text-[#295d4e] text-xl font-flex max-w-4xl max-sm:text-xs">
                 We understand that choosing the right accounting partner can be
                 confusing. That&apos;s why we&apos;ve answered some of the most common
                 questions our clients ask, to help you make informed, confident

@@ -90,16 +90,16 @@ export default function ExpertiseSection() {
             <button
               onClick={() => emblaApi?.scrollPrev()}
               disabled={!canScrollLeft}
-              className="rounded-full border border-[#232061] border-opacity-30 w-11 h-11 transition-all hover:bg-[#232061] hover:text-white inline-flex items-center justify-center disabled:opacity-20 disabled:pointer-events-none"
+              className="rounded-full border border-[#418874] border-opacity-30 w-11 h-11 transition-all hover:bg-[#418874] hover:text-white inline-flex items-center justify-center disabled:opacity-20 disabled:pointer-events-none"
             >
-              <ArrowLeft className="h-5 w-5 text-[#232061]" />
+              <ArrowLeft className="h-5 w-5 text-[#418874]" />
             </button>
             <button
               onClick={() => emblaApi?.scrollNext()}
               disabled={!canScrollRight}
-              className="rounded-full border border-[#232061] border-opacity-30 w-11 h-11 transition-all hover:bg-[#232061] hover:text-white inline-flex items-center justify-center disabled:opacity-20 disabled:pointer-events-none"
+              className="rounded-full border border-[#418874] border-opacity-30 w-11 h-11 transition-all hover:bg-[#418874] hover:text-white inline-flex items-center justify-center disabled:opacity-20 disabled:pointer-events-none"
             >
-              <ArrowRight className="h-5 w-5 text-[#232061]" />
+              <ArrowRight className="h-5 w-5 text-[#418874]" />
             </button>
           </div>
         </div>
@@ -146,7 +146,7 @@ export default function ExpertiseSection() {
 
                   {/* Content Section */}
                   <div className="p-12 flex flex-col flex-1">
-                    <h3 className="text-[26px] font-bold text-[#232061] mb-6">
+                    <h3 className="text-[26px] font-bold text-[#418874] mb-6">
                       {service.title}
                     </h3>
 
@@ -154,7 +154,7 @@ export default function ExpertiseSection() {
                     <div className="flex-1" />
 
                     {/* Pill Button */}
-                    <button className="w-full rounded-full border border-[#232061] text-[#232061] hover:bg-[#232061] hover:text-white py-6 text-sm font-bold tracking-wide transition-all flex justify-center items-center gap-3 bg-transparent">
+                    <button className="w-full rounded-full border border-[#418874] text-[#418874] hover:bg-[#418874] hover:text-white py-6 text-sm font-bold tracking-wide transition-all flex justify-center items-center gap-3 bg-transparent">
                       Learn More
                       <MoveRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                     </button>

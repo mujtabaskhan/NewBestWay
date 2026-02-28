@@ -10,16 +10,15 @@ const styles = `
     --cream: #ffffff;
     --ink: #0f0f0f;
     --muted: #6b6b6b;
-    --accent: #027C99;
-    --accent-light: #e6f4f8;
+    --accent: #418874;
+    --accent-dark: #295d4e;
+    --accent-light: rgba(65,136,116,0.1);
     --border: #e8e4de;
     --card-bg: #fafaf8;
     font-family: 'DM Sans', sans-serif;
     background: var(--cream);
     color: var(--ink);
   }
-
-
 
   /* ── Layout ── */
   .contact-container {
@@ -187,14 +186,14 @@ const styles = `
     border-radius: 100px;
     font-size: 0.8rem;
     font-weight: 600;
-    color: #014f61;
+    color: var(--accent-dark);
     white-space: nowrap;
   }
   .calendly-badge-dot {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #014f61;
+    background: var(--accent-dark);
     animation: pulse 2s infinite;
   }
   @keyframes pulse {
@@ -236,7 +235,7 @@ const styles = `
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: var(--ink);
+    background: var(--accent-dark);
     color: white;
     text-decoration: none;
     padding: 14px 28px;
@@ -248,7 +247,7 @@ const styles = `
     transition: background 0.2s, transform 0.2s;
   }
   .calendly-cta:hover {
-    background: #027C99;
+    background: var(--accent);
     transform: translateY(-2px);
   }
 `;
@@ -299,12 +298,10 @@ const CONTACT_INFO = {
     line2: "Colonia, NJ 07067",
   },
   phone: "(212) 714-1100",
-  phone2: "(732) 564-6965",  // ← add this
+  phone2: "(732) 564-6965",
   email: "newbestwayinc@gmail.com",
-  // Replace with your Google Maps embed URL
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6045.217597539713!2d-73.98517227456958!3d40.74863280672389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9bb853f49%3A0x3da55bc6c02918a8!2s1%20W%2034th%20St.%20Rm%20201%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2s!4v1772223428112!5m2!1sen!2s",
-  // Replace with your Calendly URL
   calendlyUrl: "https://calendly.com/your-username/30min",
 };
 
@@ -317,8 +314,6 @@ export default function ContactPage() {
       <style>{styles}</style>
 
       <main className="contact-root">
-
-
         <div className="contact-container">
           {/* Info + Map Grid */}
           <div className="contact-grid">
@@ -355,20 +350,10 @@ export default function ContactPage() {
               </div>
 
               {/* Phone */}
-              <a href={`tel:${CONTACT_INFO.phone.replace(/\D/g, "")}`} className="info-item">
+              <a href={`tel:${CONTACT_INFO.phone2.replace(/\D/g, "")}`} className="info-item">
                 <div className="info-icon"><IconPhone /></div>
                 <div>
-                  <p className="info-label">Phone – New York</p>
-                  <p className="info-value">{CONTACT_INFO.phone}</p>
-                  <p className="info-value-sub">Mon – Fri, 9 am – 6 pm EST</p>
-                </div>
-              </a>
-
-              {/* Phone 2 */}
-              <a href={`tel:${CONTACT_INFO.phone2.replace(/\D/g, "")}`} className="info-item" style={{ marginTop: 20 }}>
-                <div className="info-icon"><IconPhone /></div>
-                <div>
-                  <p className="info-label">Phone – New Jersey</p>
+                  <p className="info-label">Phone</p>
                   <p className="info-value">{CONTACT_INFO.phone2}</p>
                   <p className="info-value-sub">Mon – Fri, 9 am – 6 pm EST</p>
                 </div>
@@ -419,7 +404,6 @@ export default function ContactPage() {
 
             <div className="calendly-embed-wrapper">
               {!calendlyLoaded ? (
-                // Show a friendly CTA while iframe hasn't been requested yet
                 <div className="calendly-placeholder">
                   <div className="calendly-placeholder-icon">
                     <IconCalendar />
@@ -437,7 +421,7 @@ export default function ContactPage() {
                 </div>
               ) : (
                 <iframe
-                  src={`${CONTACT_INFO.calendlyUrl}?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=027C99`}
+                  src={`${CONTACT_INFO.calendlyUrl}?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=418874`}
                   title="Schedule a meeting"
                   frameBorder="0"
                 />
