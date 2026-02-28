@@ -109,7 +109,7 @@ const Footer = ({ className }: { className?: string }) => {
               </h3>
               <div className="font-flex text-white text-[15px] flex flex-col gap-3 max-sm:text-[10px] max-sm:gap-2">
                 <Link
-                  href="https://www.instagram.com/veritas_accounting/"
+                  href="#"
                   target="_blank"
                   className="underline"
                 >

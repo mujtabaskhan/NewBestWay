@@ -499,7 +499,7 @@ const Navbar = () => {
                   className="transition-colors duration-300 cursor-pointer"
                   onClick={() =>
                     window.open(
-                      "https://www.instagram.com/veritas_accounting/",
+                      "#",
                       "_blank",
                     )
                   }
@@ -643,7 +643,7 @@ const Navbar = () => {
                       className="cursor-pointer"
                       onClick={() =>
                         window.open(
-                          "https://www.instagram.com/veritas_accounting/",
+                          "#",
                           "_blank",
                         )
                       }
