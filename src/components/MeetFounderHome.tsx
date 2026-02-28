@@ -36,7 +36,7 @@ export default function MeetFounderHome() {
           </div>
 
           <Image
-            src="/"
+            src="/salahuddin.jpeg"
             alt="Founder"
             width={500}
             height={800}
