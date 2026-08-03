@@ -74,3 +74,9 @@ coverage/
 .kiro/
 .gemini/
 .copilot/
+
+
+# Added by security update
+
+# IDE and AI tool config folders
+.vscode/
