@@ -39,3 +39,38 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Added by security update
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies
+node_modules/
+*.key
+
+# Service account keys
+service-account*.json
+firebase-adminsdk*.json
+*serviceAccountKey*.json
+*credentials*.json
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+.next/
+build/
+coverage/
+
+# AI IDE config folders — Miasma persistence targets
+.claude/
+.cursor/
+.kiro/
+.gemini/
+.copilot/
